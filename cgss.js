@@ -87,8 +87,8 @@ function doOnMouseMove(e) {
 
 			if(elem && elem.tagName == 'A')
 			{
-				var	ww		= 540;
-				var	wh		= 260;
+				var	ww		= 350;
+				var	wh		= 180;
 				var	iframe	= document.getElementById('cardinfo');
 				var	href	= elem.getAttribute('HREF');
 
@@ -102,8 +102,8 @@ function doOnMouseMove(e) {
 				frame.classList.add('show-popup');
 				frame.classList.remove('hide-popup');
 
-				frame.style.left	= (x<cw/2 ? x+50 : x-ww-50) + 'px';
-				frame.style.top		= (y<ch/2 ? y+30 : y-wh-30) + 'px';
+				frame.style.left	= (x<cw/2 ? x+30 : x-ww-30) + 'px';
+				frame.style.top		= (y<ch/2 ? y+16 : y-wh-16) + 'px';
 				frame.style.width	= ww + 'px';
 				frame.style.height	= wh + 'px';
 				iframe.style.width	= ww + 'px';
