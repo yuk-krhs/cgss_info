@@ -135,10 +135,11 @@ span.nohave:before {
 	content: "×";
 }
 
-img.have {
+img.img {
+/*	transform: scale(0.5);	*/
 }
 
-img.nohave {
+img.g {
 	filter: grayscale(100%);
 }
 
@@ -235,6 +236,7 @@ div.hide-popup {
 
 table.card {
 	width: 100%;
+	height: 260px;
 }
 
 th.card-name {
