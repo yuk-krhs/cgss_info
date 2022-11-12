@@ -20,13 +20,13 @@ function setMode(m) {
 }
 
 function saveMode() {
-	var value = 'opMode=' + mode + '; expires=' + (24*60*60*365*10);
+	var value = 'opMode=' + mode + '; Max-Age=' + (24*60*60*365*10);
 //	console.log(value);
 	document.cookie = value;
 }
 
 function saveGrayOut() {
-	var value = 'grayCards=' + Array.from(grayCards).join('/') + '; expires=' + (24*60*60*365*10);
+	var value = 'grayCards=' + Array.from(grayCards).join('/') + '; Max-Age=' + (24*60*60*365*10);
 //	console.log(value);
 	document.cookie = value;
 }
