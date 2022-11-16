@@ -258,9 +258,36 @@ input.cb_sec {
 
 div.pagehead {
 	padding-bottom: 8px;
+}
 
-/*	width: 100%;
-	text-align: right;	*/
+div.pagehead-item-left {
+	float: left;
+	margin-left: 5pt;
+	margin-right: 5pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+}
+
+div.pagehead-item-right {
+	float: right;
+	margin-left: 5pt;
+	margin-right: 5pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+}
+
+div.center {
+	text-align: center;
+}
+
+a.box {
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+
+div.box {
+	border: 1px solid black;
 }
 
 img.skillsec {
@@ -348,3 +375,230 @@ ul.usage {
 
 li.usage {
 }
+
+
+
+
+th.stats-year-label {
+	width: 60px;
+}
+
+th.stats-month-label {
+	width: 60px;
+}
+
+th.stats-sum-label {
+	width: 70px;
+}
+
+td.stats-usernum {
+	text-align: right;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+td.stats-usernum-sum {
+	text-align: right;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+th.stats-year {
+}
+
+td.stats-usernum {
+}
+
+th.stats-idol-no {
+	width: 30px;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+th.stats-idol-id {
+	width: 40px;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+th.stats-idol-name {
+	width: 180px;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+th.stats-idol-rank {
+	width: 40px;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+th.stats-num-label {
+	width: 60px;
+	padding: 0pt 5pt 0pt; 5pt;
+	border-left: none;
+	border-right: none;
+}
+
+th.stats-per-label {
+	width: 70px;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+
+
+
+td.stats-idol-no {
+	text-align: right;
+	width: 30px;
+	padding: 0pt 5pt 0pt; 5pt;
+/*	background: #eeffee;	*/
+}
+
+td.stats-idol-rank {
+	text-align: right;
+	padding: 0pt 5pt 0pt; 5pt;
+	background: #eeffee;
+}
+
+td.stats-idol-id {
+	text-align: center;
+	padding: 0pt 5pt 0pt; 5pt;
+/*	background: #eeffee;	*/
+}
+
+td.stats-idol-name {
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+td.stats-idol-num {
+	text-align: right;
+	padding: 0pt 5pt 0pt; 5pt;
+	border-left: none;
+	border-right: none;
+}
+
+td.stats-idol-per {
+	text-align: right;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+td.type-cu {
+	background: #ffeeee;
+}
+
+td.type-co {
+	background: #eeeeff;
+}
+
+td.type-pa {
+	background: #ffffdd;
+}
+
+td.stats-idol-cont {
+	background: #dddddd;
+}
+
+div.graph {
+	vertical-align: bottom;
+	align-items: flex-end;
+	display: flex;
+/*	border: 1px solid gray;	*/
+/*	background: #ffeeff;	*/
+}
+
+div.graph-bar {
+	float: left;
+	vertical-align: bottom;
+	align-items: flex-end;
+	width: 4px;
+	background: #ff0000;
+}
+
+div.graph-label {
+	vertical-align: top;
+	align-items: flex-end;
+	display: flex;
+/*	background: #eeeeff;	*/
+	height: 80px;
+	white-space: norwap;
+}
+
+div.graph-label-item {
+	float: left;
+	white-space: norwap;
+}
+
+div.graph-count-label {
+	height: 512px;
+	width: 50px;
+	border-right: 1px solid gray;
+}
+
+div.graph-count-label2 {
+	height: 80px;
+	width: 50px;
+}
+
+div.graph-count-max {
+	height: 256px;
+}
+
+div.graph-count-min {
+	height: 256px;
+	display:flex;
+	align-items:flex-end;
+}
+
+span.graph-count-min {
+}
+
+span.graph-label-item-1 {
+	font-size: 10pt;
+	display: inline-block;
+	white-space: norwap;
+	transform: rotate(90deg) translate(0px, 50px);
+	width: 120px;
+}
+
+span.graph-label-item-X {
+	font-size: 10pt;
+	display: inline-block;
+	white-space: norwap;
+	transform: rotate(90deg) translate(0px, 55px);
+	width: 120px;
+}
+
+table#stats-register {
+	position:  absolute;
+	background-color: #eeeeff;
+	padding:  1px;
+	left:  100px;
+	top: 80px;
+}
+
+
+
+
+
+
+tbody.table-thead
+{
+}
+
+th.table-idol-id		{ width: 40px; }
+th.table-idol-name		{ width: 200px; }
+th.table-idol-type		{ width: 40px; }
+th.table-idol-num		{ }
+th.table-idol-date		{ }
+th.table-idol-num1		{ width: 40px; }
+th.table-idol-num2		{ width: 40px; border-left: none; border-right: none; }
+th.table-idol-num3		{ width: 40px; }
+th.table-idol-date1		{ width: 224px; }
+th.table-idol-date2		{ width: 224px; border-left: none; border-right: none; }
+th.table-idol-date3		{ width: 224px; }
+
+tbody.table-tbody		{ padding: 0 5pt 0 5pt; }
+td.table-idol-id		{ padding: 0 5pt 0 5pt; }
+td.table-idol-name		{ padding: 0 5pt 0 5pt; }
+td.table-idol-type		{ padding: 0 5pt 0 5pt; text-align: center; }
+td.table-idol-num1		{ padding: 0 5pt 0 5pt; text-align: right; }
+td.table-idol-num2		{ padding: 0 5pt 0 5pt; text-align: right; border-left: none; border-right: none; }
+td.table-idol-num3		{ padding: 0 5pt 0 5pt; text-align: right; }
+td.table-idol-date1		{ padding: 0 5pt 0 5pt; text-align: left; }
+td.table-idol-date2		{ padding: 0 5pt 0 5pt; text-align: left; border-left: none; border-right: none; }
+td.table-idol-date3		{ padding: 0 5pt 0 5pt; text-align: left; }
