@@ -171,6 +171,7 @@ td.pa {
 
 th.cu {
 	background: #ffeeee;
+	border-bottom: none;
 }
 
 th.co {
@@ -179,6 +180,7 @@ th.co {
 
 th.pa {
 	background: #ffffdd;
+	border-top: none;
 }
 
 #cardinfo-frame {
@@ -418,8 +420,21 @@ th.stats-idol-id {
 }
 
 th.stats-idol-name {
-	width: 180px;
+	width: 168px;
 	padding: 0pt 5pt 0pt; 5pt;
+}
+
+th.stats-idol-cv {
+	width: 112px;
+	padding: 0pt 5pt 0pt; 5pt;
+}
+
+th.stats-idol-leader {
+	border-bottom: 0px none black;
+}
+
+th.stats-idol-emblem {
+	border-bottom: 0px none black;
 }
 
 th.stats-idol-rank {
@@ -439,30 +454,36 @@ th.stats-per-label {
 	padding: 0pt 5pt 0pt; 5pt;
 }
 
-
-
-
 td.stats-idol-no {
 	text-align: right;
 	width: 30px;
 	padding: 0pt 5pt 0pt; 5pt;
 /*	background: #eeffee;	*/
+	border-top: 0px none black;
 }
 
 td.stats-idol-rank {
 	text-align: right;
 	padding: 0pt 5pt 0pt; 5pt;
 	background: #eeffee;
+	border-top: 0px none black;
 }
 
 td.stats-idol-id {
 	text-align: center;
 	padding: 0pt 5pt 0pt; 5pt;
 /*	background: #eeffee;	*/
+	border-top: 0px none black;
 }
 
 td.stats-idol-name {
 	padding: 0pt 5pt 0pt; 5pt;
+	border-top: 0px none black;
+}
+
+td.stats-idol-cv {
+	padding: 0pt 5pt 0pt; 5pt;
+	border-top: 0px none black;
 }
 
 td.stats-idol-num {
@@ -470,11 +491,13 @@ td.stats-idol-num {
 	padding: 0pt 5pt 0pt; 5pt;
 	border-left: none;
 	border-right: none;
+	border-top: 0px none black;
 }
 
 td.stats-idol-per {
 	text-align: right;
 	padding: 0pt 5pt 0pt; 5pt;
+	border-top: 0px none black;
 }
 
 td.type-cu {
@@ -583,8 +606,8 @@ tbody.table-thead
 th.table-idol-id		{ width: 40px; }
 th.table-idol-name		{ width: 200px; }
 th.table-idol-type		{ width: 40px; }
-th.table-idol-num		{ }
-th.table-idol-date		{ }
+th.table-idol-num		{ border-bottom: 0px none black; width: 122px; }
+th.table-idol-date		{ border-bottom: 0px none black; }
 th.table-idol-num1		{ width: 40px; }
 th.table-idol-num2		{ width: 40px; border-left: none; border-right: none; }
 th.table-idol-num3		{ width: 40px; }
@@ -592,13 +615,34 @@ th.table-idol-date1		{ width: 224px; }
 th.table-idol-date2		{ width: 224px; border-left: none; border-right: none; }
 th.table-idol-date3		{ width: 224px; }
 
+table#table-idol		{ width: 1093px; }
 tbody.table-tbody		{ padding: 0 5pt 0 5pt; }
-td.table-idol-id		{ padding: 0 5pt 0 5pt; }
-td.table-idol-name		{ padding: 0 5pt 0 5pt; }
-td.table-idol-type		{ padding: 0 5pt 0 5pt; text-align: center; }
-td.table-idol-num1		{ padding: 0 5pt 0 5pt; text-align: right; }
-td.table-idol-num2		{ padding: 0 5pt 0 5pt; text-align: right; border-left: none; border-right: none; }
-td.table-idol-num3		{ padding: 0 5pt 0 5pt; text-align: right; }
-td.table-idol-date1		{ padding: 0 5pt 0 5pt; text-align: left; }
-td.table-idol-date2		{ padding: 0 5pt 0 5pt; text-align: left; border-left: none; border-right: none; }
-td.table-idol-date3		{ padding: 0 5pt 0 5pt; text-align: left; }
+td.table-idol-id		{ padding: 0 5pt 0 5pt; border-top: 0px none black; }
+td.table-idol-name		{ padding: 0 5pt 0 5pt; border-top: 0px none black; }
+td.table-idol-type		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: center; }
+td.table-idol-num1		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: right; }
+td.table-idol-num2		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: right; border-left: none; border-right: none; }
+td.table-idol-num3		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: right; }
+td.table-idol-date1		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: left; }
+td.table-idol-date2		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: left; border-left: none; border-right: none; }
+td.table-idol-date3		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: left; }
+
+table#table-event 		{ width: 1778px; }
+th.table-class-month 	{ border-top: 0px none; }
+th.table-class-month 	{ border-top: 0px none; width: 72px; }
+th.table-class-month-unit 	{ border-left: 0px none; }
+th.table-class-span 	{ border-top: 0px none; border-left: 0px none; }
+td.table-class-event	{ border-top: 0px none; border-left: 0px none; }
+td.event-type-1			{ background: #ffeeee; }
+td.event-type-2			{ background: #eeffee; }
+td.event-type-3			{ background: #ffffee; }
+td.event-type-4			{ background: #eeeeff; }
+td.event-type-5			{ background: #ffeeff; }
+td.event-type-6			{ background: #eeffff; }
+td.event-type-7			{ background: #ffdddd; }
+td.event-type-8			{ background: #ffffff; }
+span.table-class-event-date	{ font-size: 8pt; }
+
+img.song-type-icon		{ width: 18px; height: 18px; }
+
+th.table-class-span		{ width: 284px; }

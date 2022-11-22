@@ -1,7 +1,7 @@
 import data from './stats_idol.json' assert {type: 'json'};
 
-var indices = createSortIndices(sortNumber, sortNumber, sortString, sortRank, sortRank);
-var sortCol = 3;
+var indices = createSortIndices(sortNumber, sortNumber, sortString, sortString, sortRank, sortRank);
+var sortCol = 4;
 var sortOrd = true;
 var idxCurr = indices[sortCol];
 var idx     = 0;
@@ -11,8 +11,9 @@ for(let item of data)
     indices[0].index.push({ index: idx, value: item.no });
     indices[1].index.push({ index: idx, value: item.id });
     indices[2].index.push({ index: idx, value: item.phon });
-    indices[3].index.push({ index: idx, value: [item.rank1, item.rank2] });
-    indices[4].index.push({ index: idx, value: [item.rank2, item.rank1] });
+    indices[3].index.push({ index: idx, value: item.cv });
+    indices[4].index.push({ index: idx, value: [item.rank1, item.rank2] });
+    indices[5].index.push({ index: idx, value: [item.rank2, item.rank1] });
     ++idx;
 }
 
@@ -44,15 +45,16 @@ function createThisTable()
     var th      = createChildElement(tr, 'th', null, 'stats-idol-no');    th.innerText= '#';      setAttributes(th, { onclick: 'clickSort(0)', rowspan: 2 });
     th          = createChildElement(tr, 'th', null, 'stats-idol-id');    th.innerText= 'ID';     setAttributes(th, { onclick: 'clickSort(1)', rowspan: 2 });
     th          = createChildElement(tr, 'th', null, 'stats-idol-name');  th.innerText= 'Name';   setAttributes(th, { onclick: 'clickSort(2)', rowspan: 2 });
-    th          = createChildElement(tr, 'th', null, 'stats-idol-leader');th.innerText= 'Leader'; setAttributes(th, { onclick: 'clickSort(3)', colspan: 3 });
-    th          = createChildElement(tr, 'th', null, 'stats-idol-emblem');th.innerText= 'Emblem'; setAttributes(th, { onclick: 'clickSort(4)', colspan: 3 });
+    th          = createChildElement(tr, 'th', null, 'stats-idol-cv');    th.innerText= 'CV';     setAttributes(th, { onclick: 'clickSort(3)', rowspan: 2 });
+    th          = createChildElement(tr, 'th', null, 'stats-idol-leader');th.innerText= 'Leader'; setAttributes(th, { onclick: 'clickSort(4)', colspan: 3 });
+    th          = createChildElement(tr, 'th', null, 'stats-idol-emblem');th.innerText= 'Emblem'; setAttributes(th, { onclick: 'clickSort(5)', colspan: 3 });
     tr          = createChildElement(thead, 'tr');
-    th          = createChildElement(tr, 'th', null, 'stats-idol-rank');  th.innerText= 'Rank';   setAttributes(th, { onclick: 'clickSort(3)' });
-    th          = createChildElement(tr, 'th', null, 'stats-num-label');  th.innerText= 'Count';  setAttributes(th, { onclick: 'clickSort(3)' });
-    th          = createChildElement(tr, 'th', null, 'stats-per-label');  th.innerText= 'Ratio';  setAttributes(th, { onclick: 'clickSort(3)' });
     th          = createChildElement(tr, 'th', null, 'stats-idol-rank');  th.innerText= 'Rank';   setAttributes(th, { onclick: 'clickSort(4)' });
     th          = createChildElement(tr, 'th', null, 'stats-num-label');  th.innerText= 'Count';  setAttributes(th, { onclick: 'clickSort(4)' });
-    th          = createChildElement(tr, 'th', null, 'stats-per-label');  th.innerText= 'Ratio';  setAttributes(th, { onclick: 'clickSort(4)' });
+    th          = createChildElement(tr, 'th', null, 'stats-per-label');  th.innerText= 'Percent';setAttributes(th, { onclick: 'clickSort(4)' });
+    th          = createChildElement(tr, 'th', null, 'stats-idol-rank');  th.innerText= 'Rank';   setAttributes(th, { onclick: 'clickSort(5)' });
+    th          = createChildElement(tr, 'th', null, 'stats-num-label');  th.innerText= 'Count';  setAttributes(th, { onclick: 'clickSort(5)' });
+    th          = createChildElement(tr, 'th', null, 'stats-per-label');  th.innerText= 'Percent';setAttributes(th, { onclick: 'clickSort(5)' });
     var tbody   = createChildElement(table, 'tbody', 'stats-idol-tbody', 'stats-tbody');
     var last_r1 = null;
     var last_r2 = null;
@@ -68,6 +70,7 @@ function createThisTable()
         var td  = createChildElement(tr, 'td', null, 'stats-idol-no');          td.innerText= item.no;
         td      = createChildElement(tr, 'td', null, 'stats-idol-id',    type); td.innerText= item.id;
         td      = createChildElement(tr, 'td', null, 'stats-idol-name',  type); td.innerText= item.name;
+        td      = createChildElement(tr, 'td', null, 'stats-idol-cv',    type); td.innerText= item.cv;
 
         if(last_r1 != item.rank1)
         {
@@ -77,7 +80,7 @@ function createThisTable()
             last_td1= [];
             last_td1.push(td= createChildElement(tr, 'td', null, 'stats-idol-rank')); td.innerText= item.rank1;
             last_td1.push(td= createChildElement(tr, 'td', null, 'stats-idol-num'));  td.innerText= item.count1;
-            last_td1.push(td= createChildElement(tr, 'td', null, 'stats-idol-per'));  td.innerText= item.per1.toFixed(2)+'%';
+            last_td1.push(td= createChildElement(tr, 'td', null, 'stats-idol-per'));  td.innerText= item.per1.toFixed(3)+'%';
         } else
             ++rows1;
 
@@ -89,7 +92,7 @@ function createThisTable()
             last_td2= [];
             last_td2.push(td= createChildElement(tr, 'td', null, 'stats-idol-rank')); td.innerText= item.rank2;
             last_td2.push(td= createChildElement(tr, 'td', null, 'stats-idol-num'));  td.innerText= item.count2;
-            last_td2.push(td= createChildElement(tr, 'td', null, 'stats-idol-per'));  td.innerText= item.per2.toFixed(2)+'%';
+            last_td2.push(td= createChildElement(tr, 'td', null, 'stats-idol-per'));  td.innerText= item.per2.toFixed(3)+'%';
         } else
             ++rows2;
 
