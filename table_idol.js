@@ -1,43 +1,20 @@
 import data from './table_idol.json' assert {type: 'json'};
 
-var indices = createSortIndices(sortNumber, sortString, sortNumber, sortNumber, sortNumber, sortNumber, sortNumber, sortNumber, sortNumber);
-var sortCol = 0;
-var sortOrd = true;
-var idxCurr = indices[sortCol];
-var idx     = 0;
+var sortCol     = 0;
+var sortOrd     = true;
+var tableData   = data;
+var sorters     = createSorters(
+        [item => item.id,           compareNumber],
+        [item => item.phon,         compareString],
+        [item => item.type_no,      compareNumber],
+        [item => item.num_cards,    compareNumber],
+        [item => item.num_ssr,      compareNumber],
+        [item => item.num_sr,       compareNumber],
+        [item => item.last_v_gacha, compareNumber],
+        [item => item.last_v_ssr,   compareNumber],
+        [item => item.last_v_event, compareNumber]);
 
-for(let item of data)
-{
-    indices[0].index.push({ index: idx, value: item.id });
-    indices[1].index.push({ index: idx, value: item.phon });
-    indices[2].index.push({ index: idx, value: item.type_no });
-    indices[3].index.push({ index: idx, value: item.num_cards });
-    indices[4].index.push({ index: idx, value: item.num_ssr });
-    indices[5].index.push({ index: idx, value: item.num_sr });
-    indices[6].index.push({ index: idx, value: item.last_v_gacha });
-    indices[7].index.push({ index: idx, value: item.last_v_ssr });
-    indices[8].index.push({ index: idx, value: item.last_v_event });
-    ++idx;
-}
-
-function clickSort(index)
-{
-    if(index == sortCol)
-        sortOrd = !sortOrd;
-    else
-    {
-        sortCol = index;
-        sortOrd = true;
-    }
-
-    idxCurr=indices[index];
-    idxCurr.sorter(idxCurr.index, sortOrd);
-    createThisTable();
-}
-
-window.clickSort = clickSort;
-
-function createThisTable()
+function createTable(data)
 {
     var table   = document.getElementById('table-idol');
 
@@ -60,7 +37,7 @@ function createThisTable()
     th          = createChildElement(tr, 'th', null, 'table-idol-date3'); th.innerText= 'Event';     setAttributes(th, { onclick: 'clickSort(8)' });
     var tbody   = createChildElement(table, 'tbody', 'table-idol-tbody', 'table-tbody');
 
-    for(let item of idxCurr.index.map(i => data[i.index]))
+    for(let item of data)
     {
         var day1= (now - item.last_v_gacha) / 86400;
         var day2= (now - item.last_v_ssr)   / 86400;
@@ -68,7 +45,7 @@ function createThisTable()
         var type= 'type-' + item.type;
         tr      = createChildElement(tbody, 'tr');
         var td  = createChildElement(tr, 'td', null, 'table-idol-id',    type); td.innerText= item.id;
-        td      = createChildElement(tr, 'td', null, 'table-idol-name',  type); td.innerText= item.name;
+        td      = createChildElement(tr, 'td', null, 'table-idol-name',  type); td.innerHTML= '<a href="idols/' + item.id + '.html">' + item.name + '</a>';
         td      = createChildElement(tr, 'td', null, 'table-idol-type',  type); td.innerText= item.type;
         td      = createChildElement(tr, 'td', null, 'table-idol-num1',  type); td.innerText= item.num_cards;
         td      = createChildElement(tr, 'td', null, 'table-idol-num2',  type); td.innerText= item.num_ssr;
@@ -79,4 +56,20 @@ function createThisTable()
     }
 }
 
-createThisTable();
+function clickSort(index)
+{
+    if(index == sortCol)
+        sortOrd = !sortOrd;
+    else
+    {
+        sortCol = index;
+        sortOrd = true;
+    }
+
+    sortTable(tableData, sorters[sortCol], sortOrd);
+    createTable(tableData);
+}
+
+createTable(tableData);
+
+window.clickSort        = clickSort;

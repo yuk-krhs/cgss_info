@@ -330,17 +330,17 @@
         "phon" : "\u305B\u304D\u3072\u308D\u307F",
         "type" : "cu",
         "type_no" : 1,
-        "num_cards" : 10,
+        "num_cards" : 11,
         "num_n"     : 1,
         "num_r"     : 0,
-        "num_sr"    : 4,
+        "num_sr"    : 5,
         "num_ssr"   : 5,
         "last_gacha" : "2022-05-30 15:00",
         "last_ssr"   : "2022-05-30 15:00",
-        "last_event" : "2021-09-29 15:00",
+        "last_event" : "2022-12-19 15:00",
         "last_v_gacha" : 1653922800,
         "last_v_ssr"   : 1653922800,
-        "last_v_event" : 1632927600
+        "last_v_event" : 1671462000
     },
     {
         "id" : 120,
@@ -1068,17 +1068,17 @@
         "phon" : "\u304A\u3068\u304F\u3089\u3086\u3046\u304D",
         "type" : "cu",
         "type_no" : 1,
-        "num_cards" : 10,
+        "num_cards" : 11,
         "num_n"     : 1,
         "num_r"     : 0,
-        "num_sr"    : 4,
+        "num_sr"    : 5,
         "num_ssr"   : 5,
         "last_gacha" : "2021-10-04 15:00",
         "last_ssr"   : "2021-10-04 15:00",
-        "last_event" : "2022-07-20 15:00",
+        "last_event" : "2022-12-19 15:00",
         "last_v_gacha" : 1633359600,
         "last_v_ssr"   : 1633359600,
-        "last_v_event" : 1658329200
+        "last_v_event" : 1671462000
     },
     {
         "id" : 165,

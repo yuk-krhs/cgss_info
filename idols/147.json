@@ -1,0 +1,123 @@
+﻿
+[
+    {
+        "id" : "100131",
+        "name" : "\u4E95\u6751\u96EA\u83DC",
+        "implement" : "2015-12-21 15:00",
+        "implement_v" : 1450710000,
+        "rarity"      : "R",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3668,
+        "max_da"      : 1977,
+        "max_vi"      : 2393
+    },
+    {
+        "id" : "100132",
+        "name" : "\u4E95\u6751\u96EA\u83DC\uFF0B",
+        "implement" : "2015-12-21 15:00",
+        "implement_v" : 1450710000,
+        "rarity"      : "R+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 4605,
+        "max_da"      : 2482,
+        "max_vi"      : 3004
+    },
+    {
+        "id" : "100335",
+        "name" : "\uFF3B\u30ED\u30DE\u30F3\u30C1\u30C3\u30AF\u30CA\u30A4\u30C8\uFF3D\u4E95\u6751\u96EA\u83DC",
+        "implement" : "2016-12-12 15:00",
+        "implement_v" : 1481554800,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE PARTY!!",
+        "max_vo"      : 2683,
+        "max_da"      : 2128,
+        "max_vi"      : 4514
+    },
+    {
+        "id" : "100336",
+        "name" : "\uFF3B\u30ED\u30DE\u30F3\u30C1\u30C3\u30AF\u30CA\u30A4\u30C8\uFF3D\u4E95\u6751\u96EA\u83DC\uFF0B",
+        "implement" : "2016-12-12 15:00",
+        "implement_v" : 1481554800,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE PARTY!!",
+        "max_vo"      : 3305,
+        "max_da"      : 2621,
+        "max_vi"      : 5559
+    },
+    {
+        "id" : "100533",
+        "name" : "\uFF3B\u82B1\u7551\u30DE\u30AD\u30A2\u30FC\u30B8\u30E5\uFF3D\u4E95\u6751\u96EA\u83DC",
+        "implement" : "2018-05-14 15:00",
+        "implement_v" : 1526310000,
+        "rarity"      : "SR",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3399,
+        "max_da"      : 3356,
+        "max_vi"      : 3613
+    },
+    {
+        "id" : "100534",
+        "name" : "\uFF3B\u82B1\u7551\u30DE\u30AD\u30A2\u30FC\u30B8\u30E5\uFF3D\u4E95\u6751\u96EA\u83DC\uFF0B",
+        "implement" : "2018-05-14 15:00",
+        "implement_v" : 1526310000,
+        "rarity"      : "SR+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 4186,
+        "max_da"      : 4133,
+        "max_vi"      : 4450
+    },
+    {
+        "id" : "100765",
+        "name" : "\uFF3B\u79C1\u306B\u604B\u3092\u3059\u308B\u79C1\uFF3D\u4E95\u6751\u96EA\u83DC",
+        "implement" : "2019-12-19 15:00",
+        "implement_v" : 1576767600,
+        "rarity"      : "SSR",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3052,
+        "max_da"      : 3673,
+        "max_vi"      : 5658
+    },
+    {
+        "id" : "100766",
+        "name" : "\uFF3B\u79C1\u306B\u604B\u3092\u3059\u308B\u79C1\uFF3D\u4E95\u6751\u96EA\u83DC\uFF0B",
+        "implement" : "2019-12-19 15:00",
+        "implement_v" : 1576767600,
+        "rarity"      : "SSR+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3712,
+        "max_da"      : 4468,
+        "max_vi"      : 6878
+    },
+    {
+        "id" : "100909",
+        "name" : "\uFF3B\u304D\u3089\u3081\u304D\u30D5\u30A1\u30FC\u30DE\u30FC\uFF3D\u4E95\u6751\u96EA\u83DC",
+        "implement" : "2020-12-20 15:00",
+        "implement_v" : 1608476400,
+        "rarity"      : "SR",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 2495,
+        "max_da"      : 4676,
+        "max_vi"      : 3014
+    },
+    {
+        "id" : "100910",
+        "name" : "\uFF3B\u304D\u3089\u3081\u304D\u30D5\u30A1\u30FC\u30DE\u30FC\uFF3D\u4E95\u6751\u96EA\u83DC\uFF0B",
+        "implement" : "2020-12-20 15:00",
+        "implement_v" : 1608476400,
+        "rarity"      : "SR+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3075,
+        "max_da"      : 5759,
+        "max_vi"      : 3710
+    }
+]

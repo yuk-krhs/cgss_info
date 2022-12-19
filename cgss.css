@@ -603,6 +603,9 @@ tbody.table-thead
 {
 }
 
+tbody.table-tbody		{ padding: 0 5pt 0 5pt; }
+
+table#table-idol		{ width: 1093px}
 th.table-idol-id		{ width: 40px; }
 th.table-idol-name		{ width: 200px; }
 th.table-idol-type		{ width: 40px; }
@@ -614,9 +617,6 @@ th.table-idol-num3		{ width: 40px; }
 th.table-idol-date1		{ width: 224px; }
 th.table-idol-date2		{ width: 224px; border-left: none; border-right: none; }
 th.table-idol-date3		{ width: 224px; }
-
-table#table-idol		{ width: 1093px; }
-tbody.table-tbody		{ padding: 0 5pt 0 5pt; }
 td.table-idol-id		{ padding: 0 5pt 0 5pt; border-top: 0px none black; }
 td.table-idol-name		{ padding: 0 5pt 0 5pt; border-top: 0px none black; }
 td.table-idol-type		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: center; }
@@ -626,6 +626,22 @@ td.table-idol-num3		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-ali
 td.table-idol-date1		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: left; }
 td.table-idol-date2		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: left; border-left: none; border-right: none; }
 td.table-idol-date3		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: left; }
+
+table#table-card		{ width: 1520px; }
+th.table-card-id		{ width: 80px; }
+th.table-card-name		{ width: 420px; }
+th.table-card-date		{ width: 220px; }
+th.table-card-rarity	{ width: 60px; }
+th.table-card-reward	{ width: 120px; }
+th.table-card-label		{ width: 400px; }
+th.table-card-num		{ width: 70px; }
+td.table-card-id		{ padding: 0 5pt 0 5pt; border-top: 0px none black; }
+td.table-card-name		{ padding: 0 5pt 0 5pt; border-top: 0px none black; }
+td.table-card-rarity	{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: center; }
+td.table-card-reward	{ padding: 0 5pt 0 5pt; border-top: 0px none black; }
+td.table-card-label		{ padding: 0 5pt 0 5pt; border-top: 0px none black; }
+td.table-card-num		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: right; }
+td.table-card-date		{ padding: 0 5pt 0 5pt; border-top: 0px none black; text-align: left; }
 
 table#table-event 		{ width: 1778px; }
 th.table-class-month 	{ border-top: 0px none; }

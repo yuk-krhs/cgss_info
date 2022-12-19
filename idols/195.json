@@ -1,0 +1,147 @@
+﻿
+[
+    {
+        "id" : "200327",
+        "name" : "\u5C0F\u5BA4\u5343\u5948\u7F8E",
+        "implement" : "2016-11-17 15:00",
+        "implement_v" : 1479394800,
+        "rarity"      : "R",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 2634,
+        "max_da"      : 3001,
+        "max_vi"      : 2695
+    },
+    {
+        "id" : "200328",
+        "name" : "\u5C0F\u5BA4\u5343\u5948\u7F8E\uFF0B",
+        "implement" : "2016-11-17 15:00",
+        "implement_v" : 1479394800,
+        "rarity"      : "R+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3307,
+        "max_da"      : 3768,
+        "max_vi"      : 3383
+    },
+    {
+        "id" : "200423",
+        "name" : "\uFF3B\u30B9\u30C6\u30FC\u30B8\u30C7\u30A3\u30FC\u30F4\u30A1\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E",
+        "implement" : "2017-07-18 15:00",
+        "implement_v" : 1500390000,
+        "rarity"      : "SR",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 4655,
+        "max_da"      : 2505,
+        "max_vi"      : 3034
+    },
+    {
+        "id" : "200424",
+        "name" : "\uFF3B\u30B9\u30C6\u30FC\u30B8\u30C7\u30A3\u30FC\u30F4\u30A1\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E\uFF0B",
+        "implement" : "2017-07-18 15:00",
+        "implement_v" : 1500390000,
+        "rarity"      : "SR+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 5733,
+        "max_da"      : 3086,
+        "max_vi"      : 3737
+    },
+    {
+        "id" : "200569",
+        "name" : "\uFF3B\u7F8E\u3057\u304D\u54C1\u4F4D\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E",
+        "implement" : "2018-08-21 15:00",
+        "implement_v" : 1534863600,
+        "rarity"      : "SR",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 2517,
+        "max_da"      : 4640,
+        "max_vi"      : 3041
+    },
+    {
+        "id" : "200570",
+        "name" : "\uFF3B\u7F8E\u3057\u304D\u54C1\u4F4D\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E\uFF0B",
+        "implement" : "2018-08-21 15:00",
+        "implement_v" : 1534863600,
+        "rarity"      : "SR+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3100,
+        "max_da"      : 5714,
+        "max_vi"      : 3746
+    },
+    {
+        "id" : "200867",
+        "name" : "\uFF3B\u30B9\u30C8\u30A4\u30C3\u30AF\u30FB\u30DE\u30A4\u30B9\u30BF\u30A4\u30EB\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E",
+        "implement" : "2020-07-10 15:00",
+        "implement_v" : 1594393200,
+        "rarity"      : "SSR",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3669,
+        "max_da"      : 3045,
+        "max_vi"      : 5667
+    },
+    {
+        "id" : "200868",
+        "name" : "\uFF3B\u30B9\u30C8\u30A4\u30C3\u30AF\u30FB\u30DE\u30A4\u30B9\u30BF\u30A4\u30EB\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E\uFF0B",
+        "implement" : "2020-07-10 15:00",
+        "implement_v" : 1594393200,
+        "rarity"      : "SSR+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 4462,
+        "max_da"      : 3705,
+        "max_vi"      : 6890
+    },
+    {
+        "id" : "201057",
+        "name" : "\uFF3B\u30D3\u30E5\u30FC\u30C6\u30A3\u30FC\u30CF\u30FC\u30D9\u30B9\u30C8\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E",
+        "implement" : "2021-10-11 15:00",
+        "implement_v" : 1633964400,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "\u30B7\u30F3\u30C7\u30EC\u30E9\u30AD\u30E3\u30E9\u30D0\u30F3",
+        "max_vo"      : 2144,
+        "max_da"      : 2702,
+        "max_vi"      : 4488
+    },
+    {
+        "id" : "201058",
+        "name" : "\uFF3B\u30D3\u30E5\u30FC\u30C6\u30A3\u30FC\u30CF\u30FC\u30D9\u30B9\u30C8\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E\uFF0B",
+        "implement" : "2021-10-11 15:00",
+        "implement_v" : 1633964400,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "\u30B7\u30F3\u30C7\u30EC\u30E9\u30AD\u30E3\u30E9\u30D0\u30F3",
+        "max_vo"      : 2641,
+        "max_da"      : 3328,
+        "max_vi"      : 5529
+    },
+    {
+        "id" : "201197",
+        "name" : "\uFF3B\u30B9\u30D1\u30FC\u30AF\u30EB\u30AA\u30D6\u30D7\u30E9\u30A4\u30C9\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E",
+        "implement" : "2022-10-22 15:00",
+        "implement_v" : 1666450800,
+        "rarity"      : "SR",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3020,
+        "max_da"      : 4684,
+        "max_vi"      : 2481
+    },
+    {
+        "id" : "201198",
+        "name" : "\uFF3B\u30B9\u30D1\u30FC\u30AF\u30EB\u30AA\u30D6\u30D7\u30E9\u30A4\u30C9\uFF3D\u5C0F\u5BA4\u5343\u5948\u7F8E\uFF0B",
+        "implement" : "2022-10-22 15:00",
+        "implement_v" : 1666450800,
+        "rarity"      : "SR+",
+        "reward"      : "\u6052\u5E38",
+        "label"       : "\u30D7\u30E9\u30C1\u30CA\u30AA\u30FC\u30C7\u30A3\u30B7\u30E7\u30F3\u30AC\u30B7\u30E3",
+        "max_vo"      : 3719,
+        "max_da"      : 5769,
+        "max_vi"      : 3056
+    }
+]

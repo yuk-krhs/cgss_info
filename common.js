@@ -43,3 +43,27 @@ function compareRankDesc(a, b)   { return b.value[0] == a.value[0] ? b.value[1]-
 function sortNumber(idx, asc)    { if(asc) idx.sort(compareNumberAsc); else idx.sort(compareNumberDesc); }
 function sortString(idx, asc)    { if(asc) idx.sort(compareStringAsc); else idx.sort(compareStringDesc); }
 function sortRank(idx, asc)      { if(asc) idx.sort(compareRankAsc);   else idx.sort(compareRankDesc);   }
+
+function createSorters()
+{
+    var args    = [].slice.call(arguments);
+    var sorter  = [];
+
+    for(let i of args)
+        sorter.push({ getter: i[0], compare: i[1] });
+
+    return sorter;
+}
+
+function compareNumber(a, b)  { return a - b; }
+function compareString(a, b)  { return a.localeCompare(b); }
+function compareRank(a, b)    { return a[0] == b[0] ? a[1]-b[1] : a[0]-b[0]; }
+
+function sortTable(data, sorter, asc)
+{
+    var getter  = sorter.getter;
+    var compare = sorter.compare;
+
+    if(asc) data.sort((a, b) => compare(getter(a), getter(b)));
+    else    data.sort((b, a) => compare(getter(a), getter(b)));
+}
