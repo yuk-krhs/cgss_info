@@ -167,5 +167,29 @@
         "max_vo"      : 6912,
         "max_da"      : 3670,
         "max_vi"      : 4470
+    },
+    {
+        "id" : "201221",
+        "name" : "\uFF3BDreamy Anniversary\uFF3D\u671B\u6708\u8056",
+        "implement" : "2023-01-01 15:00",
+        "implement_v" : 1672585200,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Carnival",
+        "max_vo"      : 3103,
+        "max_da"      : 2563,
+        "max_vi"      : 4820
+    },
+    {
+        "id" : "201222",
+        "name" : "\uFF3BDreamy Anniversary\uFF3D\u671B\u6708\u8056\uFF0B",
+        "implement" : "2023-01-01 15:00",
+        "implement_v" : 1672585200,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Carnival",
+        "max_vo"      : 3821,
+        "max_da"      : 3159,
+        "max_vi"      : 5935
     }
 ]
