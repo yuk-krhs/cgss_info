@@ -359,5 +359,29 @@
         "max_vo"      : 591,
         "max_da"      : 13,
         "max_vi"      : 7
+    },
+    {
+        "id" : "101195",
+        "name" : "\uFF3BIsosceles\uFF3D\u5C0F\u65E5\u5411\u7F8E\u7A42",
+        "implement" : "2023-01-30 15:00",
+        "implement_v" : 1675090800,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Parade",
+        "max_vo"      : 2564,
+        "max_da"      : 3099,
+        "max_vi"      : 4822
+    },
+    {
+        "id" : "101196",
+        "name" : "\uFF3BIsosceles\uFF3D\u5C0F\u65E5\u5411\u7F8E\u7A42\uFF0B",
+        "implement" : "2023-01-30 15:00",
+        "implement_v" : 1675090800,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Parade",
+        "max_vo"      : 3158,
+        "max_da"      : 3818,
+        "max_vi"      : 5938
     }
 ]

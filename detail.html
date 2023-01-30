@@ -14,9 +14,9 @@
 </div>
   <div class="pagehead" id="pagehead" style="margin-bottom: 27px">
     <div class="pagehead-item-left">
-      <p style="float: left;">2023-01-04</p>
+      <p style="float: left;">2023-01-30</p>
     </div>
-    <a class="box" href="index.html?v=9144">    <div class="pagehead-item-left box center" style="width: 60px">戻る</div></a>
+    <a class="box" href="index.html?v=9471">    <div class="pagehead-item-left box center" style="width: 60px">戻る</div></a>
     <div class="pagehead-item-left">
       <button type="button" id="change-mode" onclick="changeMode(this);">タッチモード</button>
     </div>
@@ -26,72 +26,1903 @@
     <div class="pagehead-item-left">
       <button type="button" id="remove-head" onclick="removeHeader();">表のみ表示</button>
     </div>
-    <a class="box" href="usage.html?v=9144">    <div class="pagehead-item-left box center" style="width: 60px">使い方</div></a>
+    <a class="box" href="usage.html?v=9471">    <div class="pagehead-item-left box center" style="width: 60px">使い方</div></a>
   </div>
-  <table id="card-skill-table" class="card-skill-table" style="width: 370px;">
+  <table id="card-skill-table" class="card-skill-table" style="width: 1801px;">
   <thead id="card-skill-table-head">
     <tr>
       <th class="head0-0"            rowspan="2">秒数</th>
       <th class="head0-1"            rowspan="2">属性</th>
-      <th class="skill head1 skill0 span3"  style="width: 318px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill0')" checked="checked"></input>&nbsp;シンデレラマジック</th>
+      <th class="skill head1 skill0 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill0')" checked="checked"></input>&nbsp;COMBOボーナス</th>
+      <th class="skill head1 skill1 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill1')" checked="checked"></input>&nbsp;COMBOボーナス(トリコ)</th>
+      <th class="skill head1 skill2 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill2')" checked="checked"></input>&nbsp;シナジー/チャーム</th>
+      <th class="skill head1 skill3 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill3')" checked="checked"></input>&nbsp;シンフォニー</th>
+      <th class="skill head1 skill4 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill4')" checked="checked"></input>&nbsp;モチーフ/レゾナンス</th>
+      <th class="skill head1 skill5 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill5')" checked="checked"></input>&nbsp;リフレイン</th>
+      <th class="skill head1 skill6 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill6')" checked="checked"></input>&nbsp;ライフスパークル</th>
+      <th class="skill head1 skill7 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill7')" checked="checked"></input>&nbsp;フォーカス/プリンセス</th>
+      <th class="skill head1 skill8 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill8')" checked="checked"></input>&nbsp;オルタネイト/プリンセス</th>
+      <th class="skill head1 skill9 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill9')" checked="checked"></input>&nbsp;ミューチャル</th>
+      <th class="skill head1 skill10 span3"  style="width: 159px" colspan="3"><input class="cb_skill cb" type="checkbox" onchange="changeSkill(this, 'skill10')" checked="checked"></input>&nbsp;アンサンブル/ユニゾン</th>
     </tr>
     <tr>
-      <th class="skill head2 skill0" style="width: 106px">Vo</th>
-      <th class="skill head2 skill0" style="width: 106px">Da</th>
-      <th class="skill head2 skill0" style="width: 106px">Vi</th>
+      <th class="skill head2 skill0" style="width: 53px">Vo</th>
+      <th class="skill head2 skill0" style="width: 53px">Da</th>
+      <th class="skill head2 skill0" style="width: 53px">Vi</th>
+      <th class="skill head2 skill1" style="width: 53px">Vo</th>
+      <th class="skill head2 skill1" style="width: 53px">Da</th>
+      <th class="skill head2 skill1" style="width: 53px">Vi</th>
+      <th class="skill head2 skill2" style="width: 53px">Vo</th>
+      <th class="skill head2 skill2" style="width: 53px">Da</th>
+      <th class="skill head2 skill2" style="width: 53px">Vi</th>
+      <th class="skill head2 skill3" style="width: 53px">Vo</th>
+      <th class="skill head2 skill3" style="width: 53px">Da</th>
+      <th class="skill head2 skill3" style="width: 53px">Vi</th>
+      <th class="skill head2 skill4" style="width: 53px">Vo</th>
+      <th class="skill head2 skill4" style="width: 53px">Da</th>
+      <th class="skill head2 skill4" style="width: 53px">Vi</th>
+      <th class="skill head2 skill5" style="width: 53px">Vo</th>
+      <th class="skill head2 skill5" style="width: 53px">Da</th>
+      <th class="skill head2 skill5" style="width: 53px">Vi</th>
+      <th class="skill head2 skill6" style="width: 53px">Vo</th>
+      <th class="skill head2 skill6" style="width: 53px">Da</th>
+      <th class="skill head2 skill6" style="width: 53px">Vi</th>
+      <th class="skill head2 skill7" style="width: 53px">Vo</th>
+      <th class="skill head2 skill7" style="width: 53px">Da</th>
+      <th class="skill head2 skill7" style="width: 53px">Vi</th>
+      <th class="skill head2 skill8" style="width: 53px">Vo</th>
+      <th class="skill head2 skill8" style="width: 53px">Da</th>
+      <th class="skill head2 skill8" style="width: 53px">Vi</th>
+      <th class="skill head2 skill9" style="width: 53px">Vo･Da</th>
+      <th class="skill head2 skill9" style="width: 53px">Da･Vi</th>
+      <th class="skill head2 skill9" style="width: 53px">Vi･Vo</th>
+      <th class="skill head2 skill10" style="width: 53px">Vo</th>
+      <th class="skill head2 skill10" style="width: 53px">Da</th>
+      <th class="skill head2 skill10" style="width: 53px">Vi</th>
     </tr>
   </thead>
   <tbody id="card-skill-table-body">
   <tr>
-    <th class="sec time12" rowspan="3"><input class="cb_sec cb" type="checkbox" onchange="changeSec(this, 'time12')" checked="checked"></input>12秒</th>
-    <th class="type cu time12">Cu</th>
-<td class="item l  time12 skill0 cu"><span class="item">
-<a href="cards/101021.html?v=jfllVU1u" target="card" onclick="return clickLink(event, this, 'c101021');"><span><img id="c101021" class="face" src="images/card_101022_circle.png"/></span></a>
-<a href="cards/101059.html?v=AZAgcWUd" target="card" onclick="return clickLink(event, this, 'c101059');"><span><img id="c101059" class="face" src="images/card_101060_circle.png"/></span></a>
-<a href="cards/101159.html?v=1soq.krs" target="card" onclick="return clickLink(event, this, 'c101159');"><span><img id="c101159" class="face" src="images/card_101160_circle.png"/></span></a>
+    <th class="sec time4" rowspan="3"><input class="cb_sec cb" type="checkbox" onchange="changeSec(this, 'time4')" checked="checked"></input>4秒</th>
+    <th class="type cu time4">Cu</th>
+<td class="item l  time4 skill0 cu"><span class="item">
+<a href="cards/100359.html?v=AD6PlxaF" target="card" onclick="return clickLink(event, this, 'c100359');"><span><img id="c100359" class="face" src="images/card_100360_circle.png"/></span></a>
 </span></td>
-<td class="item m  time12 skill0 cu"><span class="item">
-<a href="cards/100971.html?v=cTTzMNcz" target="card" onclick="return clickLink(event, this, 'c100971');"><span><img id="c100971" class="face" src="images/card_100972_circle.png"/></span></a>
-<a href="cards/101085.html?v=8ff6hPoz" target="card" onclick="return clickLink(event, this, 'c101085');"><span><img id="c101085" class="face" src="images/card_101086_circle.png"/></span></a>
+<td class="item m  time4 skill0 cu"><span class="item">
+&nbsp;
 </span></td>
-<td class="item r  time12 skill0 cu"><span class="item">
-<a href="cards/100935.html?v=ifN4MatF" target="card" onclick="return clickLink(event, this, 'c100935');"><span><img id="c100935" class="face" src="images/card_100936_circle.png"/></span></a>
-<a href="cards/101125.html?v=qQMg7EQk" target="card" onclick="return clickLink(event, this, 'c101125');"><span><img id="c101125" class="face" src="images/card_101126_circle.png"/></span></a>
-<a href="cards/101181.html?v=l7T26DzY" target="card" onclick="return clickLink(event, this, 'c101181');"><span><img id="c101181" class="face" src="images/card_101182_circle.png"/></span></a>
+<td class="item r  time4 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill6 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill6 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill6 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill7 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill7 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill7 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill8 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill8 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill8 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill10 cu"><span class="item">
+<a href="cards/100823.html?v=tT5PoaWG" target="card" onclick="return clickLink(event, this, 'c100823');"><span><img id="c100823" class="face" src="images/card_100824_circle.png"/></span></a>
+</span></td>
+<td class="item m  time4 skill10 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill10 cu"><span class="item">
+&nbsp;
 </span></td>
   </tr>
   <tr>
-    <th class="type co time12">Co</th>
-<td class="item l  time12 skill0 co"><span class="item">
-<a href="cards/200945.html?v=BOQS3NEo" target="card" onclick="return clickLink(event, this, 'c200945');"><span><img id="c200945" class="face" src="images/card_200946_circle.png"/></span></a>
-<a href="cards/201125.html?v=3K4iPq7O" target="card" onclick="return clickLink(event, this, 'c201125');"><span><img id="c201125" class="face" src="images/card_201126_circle.png"/></span></a>
-<a href="cards/201181.html?v=iT4fLJjR" target="card" onclick="return clickLink(event, this, 'c201181');"><span><img id="c201181" class="face" src="images/card_201182_circle.png"/></span></a>
+    <th class="type co time4">Co</th>
+<td class="item l  time4 skill0 co"><span class="item">
+&nbsp;
 </span></td>
-<td class="item m  time12 skill0 co"><span class="item">
-<a href="cards/201025.html?v=Rvml9K4i" target="card" onclick="return clickLink(event, this, 'c201025');"><span><img id="c201025" class="face" src="images/card_201026_circle.png"/></span></a>
-<a href="cards/201061.html?v=0DowdSSD" target="card" onclick="return clickLink(event, this, 'c201061');"><span><img id="c201061" class="face" src="images/card_201062_circle.png"/></span></a>
+<td class="item m  time4 skill0 co"><span class="item">
+<a href="cards/200313.html?v=2TGztS1G" target="card" onclick="return clickLink(event, this, 'c200313');"><span><img id="c200313" class="face" src="images/card_200314_circle.png"/></span></a>
 </span></td>
-<td class="item r  time12 skill0 co"><span class="item">
-<a href="cards/200985.html?v=d.U5418J" target="card" onclick="return clickLink(event, this, 'c200985');"><span><img id="c200985" class="face" src="images/card_200986_circle.png"/></span></a>
-<a href="cards/201097.html?v=BQ1M9TRj" target="card" onclick="return clickLink(event, this, 'c201097');"><span><img id="c201097" class="face" src="images/card_201098_circle.png"/></span></a>
-<a href="cards/201159.html?v=XjiNuDji" target="card" onclick="return clickLink(event, this, 'c201159');"><span><img id="c201159" class="face" src="images/card_201160_circle.png"/></span></a>
+<td class="item r  time4 skill0 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill1 co"><span class="item">
+<a href="cards/200293.html?v=hxV1cGpy" target="card" onclick="return clickLink(event, this, 'c200293');"><span><img id="c200293" class="face" src="images/card_200294_circle.png"/></span></a>
+</span></td>
+<td class="item l  time4 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill8 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill8 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill8 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill10 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill10 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill10 co"><span class="item">
+<a href="cards/200843.html?v=N.hNx2px" target="card" onclick="return clickLink(event, this, 'c200843');"><span><img id="c200843" class="face" src="images/card_200844_circle.png"/></span></a>
 </span></td>
   </tr>
   <tr>
-    <th class="type pa time12">Pa</th>
-<td class="item l  time12 skill0 pa"><span class="item">
-<a href="cards/300971.html?v=o0yjVAi8" target="card" onclick="return clickLink(event, this, 'c300971');"><span><img id="c300971" class="face" src="images/card_300972_circle.png"/></span></a>
-<a href="cards/301055.html?v=buESGYHO" target="card" onclick="return clickLink(event, this, 'c301055');"><span><img id="c301055" class="face" src="images/card_301056_circle.png"/></span></a>
-<a href="cards/301151.html?v=tX88xutT" target="card" onclick="return clickLink(event, this, 'c301151');"><span><img id="c301151" class="face" src="images/card_301152_circle.png"/></span></a>
+    <th class="type pa time4">Pa</th>
+<td class="item l  time4 skill0 pa"><span class="item">
+&nbsp;
 </span></td>
-<td class="item m  time12 skill0 pa"><span class="item">
-<a href="cards/300939.html?v=Z_FPYudS" target="card" onclick="return clickLink(event, this, 'c300939');"><span><img id="c300939" class="face" src="images/card_300940_circle.png"/></span></a>
-<a href="cards/301117.html?v=wx9zq7BC" target="card" onclick="return clickLink(event, this, 'c301117');"><span><img id="c301117" class="face" src="images/card_301118_circle.png"/></span></a>
+<td class="item m  time4 skill0 pa"><span class="item">
+&nbsp;
 </span></td>
-<td class="item r  time12 skill0 pa"><span class="item">
-<a href="cards/300995.html?v=ihE06BiP" target="card" onclick="return clickLink(event, this, 'c300995');"><span><img id="c300995" class="face" src="images/card_300996_circle.png"/></span></a>
-<a href="cards/301023.html?v=j0sorg20" target="card" onclick="return clickLink(event, this, 'c301023');"><span><img id="c301023" class="face" src="images/card_301024_circle.png"/></span></a>
-<a href="cards/301089.html?v=Fp_LxsND" target="card" onclick="return clickLink(event, this, 'c301089');"><span><img id="c301089" class="face" src="images/card_301090_circle.png"/></span></a>
+<td class="item r  time4 skill0 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill6 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill6 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill6 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill8 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill8 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill8 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time4 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time4 skill10 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time4 skill10 pa"><span class="item">
+<a href="cards/300811.html?v=NQpzSSBc" target="card" onclick="return clickLink(event, this, 'c300811');"><span><img id="c300811" class="face" src="images/card_300812_circle.png"/></span></a>
+</span></td>
+<td class="item r  time4 skill10 pa"><span class="item">
+&nbsp;
+</span></td>
+  </tr>
+  <tr>
+    <th class="sec time6" rowspan="3"><input class="cb_sec cb" type="checkbox" onchange="changeSec(this, 'time6')" checked="checked"></input>6秒</th>
+    <th class="type cu time6">Cu</th>
+<td class="item l  time6 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill1 cu"><span class="item">
+<a href="cards/100343.html?v=amJH0VrQ" target="card" onclick="return clickLink(event, this, 'c100343');"><span><img id="c100343" class="face" src="images/card_100344_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill1 cu"><span class="item">
+<a href="cards/100297.html?v=DBe8PrEq" target="card" onclick="return clickLink(event, this, 'c100297');"><span><img id="c100297" class="face" src="images/card_100298_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill6 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill6 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill6 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill7 cu"><span class="item">
+<a href="cards/100447.html?v=bPS5n2Jj" target="card" onclick="return clickLink(event, this, 'c100447');"><span><img id="c100447" class="face" src="images/card_100448_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill7 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill7 cu"><span class="item">
+<a href="cards/101067.html?v=AkXH7pBK" target="card" onclick="return clickLink(event, this, 'c101067');"><span><img id="c101067" class="face" src="images/card_101068_circle.png"/></span></a>
+</span></td>
+<td class="item l  time6 skill8 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill8 cu"><span class="item">
+<a href="cards/101119.html?v=o82Ivoh7" target="card" onclick="return clickLink(event, this, 'c101119');"><span><img id="c101119" class="face" src="images/card_101120_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill8 cu"><span class="item">
+<a href="cards/100809.html?v=tcC4qE3r" target="card" onclick="return clickLink(event, this, 'c100809');"><span><img id="c100809" class="face" src="images/card_100810_circle.png"/></span></a>
+</span></td>
+<td class="item l  time6 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill9 cu"><span class="item">
+<a href="cards/101137.html?v=DoC60QGK" target="card" onclick="return clickLink(event, this, 'c101137');"><span><img id="c101137" class="face" src="images/card_101138_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill10 cu"><span class="item">
+<a href="cards/100839.html?v=628cvbMN" target="card" onclick="return clickLink(event, this, 'c100839');"><span><img id="c100839" class="face" src="images/card_100840_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill10 cu"><span class="item">
+<a href="cards/100965.html?v=jhOmlbSm" target="card" onclick="return clickLink(event, this, 'c100965');"><span><img id="c100965" class="face" src="images/card_100966_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill10 cu"><span class="item">
+<a href="cards/101129.html?v=dajk.i9o" target="card" onclick="return clickLink(event, this, 'c101129');"><span><img id="c101129" class="face" src="images/card_101130_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="type co time6">Co</th>
+<td class="item l  time6 skill0 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill0 co"><span class="item">
+<a href="cards/200957.html?v=hc2.BqlY" target="card" onclick="return clickLink(event, this, 'c200957');"><span><img id="c200957" class="face" src="images/card_200958_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill0 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill7 co"><span class="item">
+<a href="cards/200609.html?v=sRSKzQ2m" target="card" onclick="return clickLink(event, this, 'c200609');"><span><img id="c200609" class="face" src="images/card_200610_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill7 co"><span class="item">
+<a href="cards/200459.html?v=UN.JDptk" target="card" onclick="return clickLink(event, this, 'c200459');"><span><img id="c200459" class="face" src="images/card_200460_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill7 co"><span class="item">
+<a href="cards/200627.html?v=oujsM1YD" target="card" onclick="return clickLink(event, this, 'c200627');"><span><img id="c200627" class="face" src="images/card_200628_circle.png"/></span></a>
+</span></td>
+<td class="item l  time6 skill8 co"><span class="item">
+<a href="cards/200855.html?v=nQx5EGQ." target="card" onclick="return clickLink(event, this, 'c200855');"><span><img id="c200855" class="face" src="images/card_200856_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill8 co"><span class="item">
+<a href="cards/200993.html?v=_8RKiBIq" target="card" onclick="return clickLink(event, this, 'c200993');"><span><img id="c200993" class="face" src="images/card_200994_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill8 co"><span class="item">
+<a href="cards/201153.html?v=C165Yp3Y" target="card" onclick="return clickLink(event, this, 'c201153');"><span><img id="c201153" class="face" src="images/card_201154_circle.png"/></span></a>
+</span></td>
+<td class="item l  time6 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill9 co"><span class="item">
+<a href="cards/201139.html?v=J4T5x.Rt" target="card" onclick="return clickLink(event, this, 'c201139');"><span><img id="c201139" class="face" src="images/card_201140_circle.png"/></span></a>
+</span></td>
+<td class="item l  time6 skill10 co"><span class="item">
+<a href="cards/201165.html?v=2xOuJoxg" target="card" onclick="return clickLink(event, this, 'c201165');"><span><img id="c201165" class="face" src="images/card_201166_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill10 co"><span class="item">
+<a href="cards/200895.html?v=dFE1zUhH" target="card" onclick="return clickLink(event, this, 'c200895');"><span><img id="c200895" class="face" src="images/card_200896_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill10 co"><span class="item">
+<a href="cards/201069.html?v=OPmmASr9" target="card" onclick="return clickLink(event, this, 'c201069');"><span><img id="c201069" class="face" src="images/card_201070_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="type pa time6">Pa</th>
+<td class="item l  time6 skill0 pa"><span class="item">
+<a href="cards/300817.html?v=Vz265Vad" target="card" onclick="return clickLink(event, this, 'c300817');"><span><img id="c300817" class="face" src="images/card_300818_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill0 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill0 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill6 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time6 skill6 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill6 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill7 pa"><span class="item">
+<a href="cards/300519.html?v=Wua1Ppn3" target="card" onclick="return clickLink(event, this, 'c300519');"><span><img id="c300519" class="face" src="images/card_300520_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill7 pa"><span class="item">
+<a href="cards/300433.html?v=NWCEBZ3v" target="card" onclick="return clickLink(event, this, 'c300433');"><span><img id="c300433" class="face" src="images/card_300434_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill7 pa"><span class="item">
+<a href="cards/300669.html?v=ritaKzbm" target="card" onclick="return clickLink(event, this, 'c300669');"><span><img id="c300669" class="face" src="images/card_300670_circle.png"/></span></a>
+</span></td>
+<td class="item l  time6 skill8 pa"><span class="item">
+<a href="cards/300909.html?v=Zqk86o2c" target="card" onclick="return clickLink(event, this, 'c300909');"><span><img id="c300909" class="face" src="images/card_300910_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill8 pa"><span class="item">
+<a href="cards/300787.html?v=pi.oEX3." target="card" onclick="return clickLink(event, this, 'c300787');"><span><img id="c300787" class="face" src="images/card_300788_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill8 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill9 pa"><span class="item">
+<a href="cards/301099.html?v=pgfsBl6U" target="card" onclick="return clickLink(event, this, 'c301099');"><span><img id="c301099" class="face" src="images/card_301100_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time6 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time6 skill10 pa"><span class="item">
+<a href="cards/301129.html?v=u5hp2mnc" target="card" onclick="return clickLink(event, this, 'c301129');"><span><img id="c301129" class="face" src="images/card_301130_circle.png"/></span></a>
+</span></td>
+<td class="item m  time6 skill10 pa"><span class="item">
+<a href="cards/300977.html?v=V2f7q9wG" target="card" onclick="return clickLink(event, this, 'c300977');"><span><img id="c300977" class="face" src="images/card_300978_circle.png"/></span></a>
+</span></td>
+<td class="item r  time6 skill10 pa"><span class="item">
+<a href="cards/300797.html?v=swyphvIm" target="card" onclick="return clickLink(event, this, 'c300797');"><span><img id="c300797" class="face" src="images/card_300798_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="sec time7" rowspan="3"><input class="cb_sec cb" type="checkbox" onchange="changeSec(this, 'time7')" checked="checked"></input>7秒</th>
+    <th class="type cu time7">Cu</th>
+<td class="item l  time7 skill0 cu"><span class="item">
+<a href="cards/100107.html?v=EvXuEdPE" target="card" onclick="return clickLink(event, this, 'c100107');"><span><img id="c100107" class="face" src="images/card_100108_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill0 cu"><span class="item">
+<a href="cards/100299.html?v=HZMPBaO2" target="card" onclick="return clickLink(event, this, 'c100299');"><span><img id="c100299" class="face" src="images/card_100300_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill2 cu"><span class="item">
+<a href="cards/101075.html?v=HVc49BOC" target="card" onclick="return clickLink(event, this, 'c101075');"><span><img id="c101075" class="face" src="images/card_101076_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill2 cu"><span class="item">
+<a href="cards/100669.html?v=vf4M57n1" target="card" onclick="return clickLink(event, this, 'c100669');"><span><img id="c100669" class="face" src="images/card_100670_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill3 cu"><span class="item">
+<a href="cards/100927.html?v=eXQ7nfiM" target="card" onclick="return clickLink(event, this, 'c100927');"><span><img id="c100927" class="face" src="images/card_100928_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill3 cu"><span class="item">
+<a href="cards/101171.html?v=glVDnzmz" target="card" onclick="return clickLink(event, this, 'c101171');"><span><img id="c101171" class="face" src="images/card_101172_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill4 cu"><span class="item">
+<a href="cards/101025.html?v=uhaJKsSC" target="card" onclick="return clickLink(event, this, 'c101025');"><span><img id="c101025" class="face" src="images/card_101026_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill4 cu"><span class="item">
+<a href="cards/100745.html?v=ku4qDWxa" target="card" onclick="return clickLink(event, this, 'c100745');"><span><img id="c100745" class="face" src="images/card_100746_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill5 cu"><span class="item">
+<a href="cards/100913.html?v=69GgIwLx" target="card" onclick="return clickLink(event, this, 'c100913');"><span><img id="c100913" class="face" src="images/card_100914_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill6 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill6 cu"><span class="item">
+<a href="cards/100749.html?v=dujjPsz6" target="card" onclick="return clickLink(event, this, 'c100749');"><span><img id="c100749" class="face" src="images/card_100750_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill6 cu"><span class="item">
+<a href="cards/100583.html?v=LyMCzPol" target="card" onclick="return clickLink(event, this, 'c100583');"><span><img id="c100583" class="face" src="images/card_100584_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill7 cu"><span class="item">
+<a href="cards/100411.html?v=rOZlN.ue" target="card" onclick="return clickLink(event, this, 'c100411');"><span><img id="c100411" class="face" src="images/card_100412_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill7 cu"><span class="item">
+<a href="cards/100491.html?v=TtoeKQpJ" target="card" onclick="return clickLink(event, this, 'c100491');"><span><img id="c100491" class="face" src="images/card_100492_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill7 cu"><span class="item">
+<a href="cards/100597.html?v=4IfUmiVL" target="card" onclick="return clickLink(event, this, 'c100597');"><span><img id="c100597" class="face" src="images/card_100598_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill8 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill8 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill8 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill10 cu"><span class="item">
+<a href="cards/100707.html?v=H5QV7IjO" target="card" onclick="return clickLink(event, this, 'c100707');"><span><img id="c100707" class="face" src="images/card_100708_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill10 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill10 cu"><span class="item">
+&nbsp;
+</span></td>
+  </tr>
+  <tr>
+    <th class="type co time7">Co</th>
+<td class="item l  time7 skill0 co"><span class="item">
+<a href="cards/200117.html?v=BV5DeyXX" target="card" onclick="return clickLink(event, this, 'c200117');"><span><img id="c200117" class="face" src="images/card_200118_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill0 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill0 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill1 co"><span class="item">
+<a href="cards/200253.html?v=lKSdt1S8" target="card" onclick="return clickLink(event, this, 'c200253');"><span><img id="c200253" class="face" src="images/card_200254_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill2 co"><span class="item">
+<a href="cards/201185.html?v=SArk1Vh6" target="card" onclick="return clickLink(event, this, 'c201185');"><span><img id="c201185" class="face" src="images/card_201186_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill2 co"><span class="item">
+<a href="cards/200643.html?v=maDxfk3Y" target="card" onclick="return clickLink(event, this, 'c200643');"><span><img id="c200643" class="face" src="images/card_200644_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill3 co"><span class="item">
+<a href="cards/200893.html?v=jyChXM_D" target="card" onclick="return clickLink(event, this, 'c200893');"><span><img id="c200893" class="face" src="images/card_200894_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill4 co"><span class="item">
+<a href="cards/201089.html?v=86r5Zb7C" target="card" onclick="return clickLink(event, this, 'c201089');"><span><img id="c201089" class="face" src="images/card_201090_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill4 co"><span class="item">
+<a href="cards/200725.html?v=3qxrsbBr" target="card" onclick="return clickLink(event, this, 'c200725');"><span><img id="c200725" class="face" src="images/card_200726_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill5 co"><span class="item">
+<a href="cards/201217.html?v=3Zk4qZYP" target="card" onclick="return clickLink(event, this, 'c201217');"><span><img id="c201217" class="face" src="images/card_201218_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill5 co"><span class="item">
+<a href="cards/200915.html?v=0XGWRtLm" target="card" onclick="return clickLink(event, this, 'c200915');"><span><img id="c200915" class="face" src="images/card_200916_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill6 co"><span class="item">
+<a href="cards/200793.html?v=i4dWKUa9" target="card" onclick="return clickLink(event, this, 'c200793');"><span><img id="c200793" class="face" src="images/card_200794_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill6 co"><span class="item">
+<a href="cards/200729.html?v=1pCSnd_m" target="card" onclick="return clickLink(event, this, 'c200729');"><span><img id="c200729" class="face" src="images/card_200730_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill7 co"><span class="item">
+<a href="cards/200425.html?v=fx40SwgG" target="card" onclick="return clickLink(event, this, 'c200425');"><span><img id="c200425" class="face" src="images/card_200426_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill7 co"><span class="item">
+<a href="cards/200553.html?v=pY.MdcOQ" target="card" onclick="return clickLink(event, this, 'c200553');"><span><img id="c200553" class="face" src="images/card_200554_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill8 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill8 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill8 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill10 co"><span class="item">
+<a href="cards/200697.html?v=IBdK6JnP" target="card" onclick="return clickLink(event, this, 'c200697');"><span><img id="c200697" class="face" src="images/card_200698_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill10 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill10 co"><span class="item">
+&nbsp;
+</span></td>
+  </tr>
+  <tr>
+    <th class="type pa time7">Pa</th>
+<td class="item l  time7 skill0 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill0 pa"><span class="item">
+<a href="cards/300233.html?v=5jFG0fSR" target="card" onclick="return clickLink(event, this, 'c300233');"><span><img id="c300233" class="face" src="images/card_300234_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill0 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill1 pa"><span class="item">
+<a href="cards/300335.html?v=WSl2VjHE" target="card" onclick="return clickLink(event, this, 'c300335');"><span><img id="c300335" class="face" src="images/card_300336_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill2 pa"><span class="item">
+<a href="cards/300685.html?v=CfSBZ7kP" target="card" onclick="return clickLink(event, this, 'c300685');"><span><img id="c300685" class="face" src="images/card_300686_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill2 pa"><span class="item">
+<a href="cards/301107.html?v=O6vrixgc" target="card" onclick="return clickLink(event, this, 'c301107');"><span><img id="c301107" class="face" src="images/card_301108_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill3 pa"><span class="item">
+<a href="cards/300829.html?v=GPKle1nr" target="card" onclick="return clickLink(event, this, 'c300829');"><span><img id="c300829" class="face" src="images/card_300830_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill4 pa"><span class="item">
+<a href="cards/300711.html?v=E0V5Fcdl" target="card" onclick="return clickLink(event, this, 'c300711');"><span><img id="c300711" class="face" src="images/card_300712_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill4 pa"><span class="item">
+<a href="cards/301169.html?v=Y3kQ.x2Y" target="card" onclick="return clickLink(event, this, 'c301169');"><span><img id="c301169" class="face" src="images/card_301170_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill4 pa"><span class="item">
+<a href="cards/301079.html?v=lXcQI7Ch" target="card" onclick="return clickLink(event, this, 'c301079');"><span><img id="c301079" class="face" src="images/card_301080_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill5 pa"><span class="item">
+<a href="cards/300931.html?v=xQo7sFpo" target="card" onclick="return clickLink(event, this, 'c300931');"><span><img id="c300931" class="face" src="images/card_300932_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill6 pa"><span class="item">
+<a href="cards/300583.html?v=K8ttYwFd" target="card" onclick="return clickLink(event, this, 'c300583');"><span><img id="c300583" class="face" src="images/card_300584_circle.png"/></span></a>
+</span></td>
+<td class="item m  time7 skill6 pa"><span class="item">
+<a href="cards/300945.html?v=qPSA6Fga" target="card" onclick="return clickLink(event, this, 'c300945');"><span><img id="c300945" class="face" src="images/card_300946_circle.png"/></span></a>
+</span></td>
+<td class="item r  time7 skill6 pa"><span class="item">
+<a href="cards/301125.html?v=NkUWzKdd" target="card" onclick="return clickLink(event, this, 'c301125');"><span><img id="c301125" class="face" src="images/card_301126_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill7 pa"><span class="item">
+<a href="cards/300403.html?v=8jz3EQQZ" target="card" onclick="return clickLink(event, this, 'c300403');"><span><img id="c300403" class="face" src="images/card_300404_circle.png"/></span></a>
+</span></td>
+<td class="item l  time7 skill8 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill8 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill8 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time7 skill10 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time7 skill10 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time7 skill10 pa"><span class="item">
+<a href="cards/300715.html?v=2a4Rh2R_" target="card" onclick="return clickLink(event, this, 'c300715');"><span><img id="c300715" class="face" src="images/card_300716_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="sec time9" rowspan="3"><input class="cb_sec cb" type="checkbox" onchange="changeSec(this, 'time9')" checked="checked"></input>9秒</th>
+    <th class="type cu time9">Cu</th>
+<td class="item l  time9 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill0 cu"><span class="item">
+<a href="cards/100125.html?v=3BpO_eAM" target="card" onclick="return clickLink(event, this, 'c100125');"><span><img id="c100125" class="face" src="images/card_100126_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill0 cu"><span class="item">
+<a href="cards/100345.html?v=ED6jJiyR" target="card" onclick="return clickLink(event, this, 'c100345');"><span><img id="c100345" class="face" src="images/card_100346_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill2 cu"><span class="item">
+<a href="cards/101049.html?v=BUktPdT." target="card" onclick="return clickLink(event, this, 'c101049');"><span><img id="c101049" class="face" src="images/card_101050_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill2 cu"><span class="item">
+<a href="cards/100611.html?v=ulAYB1JF" target="card" onclick="return clickLink(event, this, 'c100611');"><span><img id="c100611" class="face" src="images/card_100612_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill3 cu"><span class="item">
+<a href="cards/100797.html?v=865tH_xR" target="card" onclick="return clickLink(event, this, 'c100797');"><span><img id="c100797" class="face" src="images/card_100798_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill4 cu"><span class="item">
+<a href="cards/100963.html?v=a6RiA5QJ" target="card" onclick="return clickLink(event, this, 'c100963');"><span><img id="c100963" class="face" src="images/card_100964_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill5 cu"><span class="item">
+<a href="cards/100989.html?v=x1a2lsn0" target="card" onclick="return clickLink(event, this, 'c100989');"><span><img id="c100989" class="face" src="images/card_100990_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill6 cu"><span class="item">
+<a href="cards/100481.html?v=ZaJJN.Iw" target="card" onclick="return clickLink(event, this, 'c100481');"><span><img id="c100481" class="face" src="images/card_100482_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill6 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill6 cu"><span class="item">
+<a href="cards/101107.html?v=yPYCcNVq" target="card" onclick="return clickLink(event, this, 'c101107');"><span><img id="c101107" class="face" src="images/card_101108_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill7 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill7 cu"><span class="item">
+<a href="cards/100425.html?v=P2jIoQqu" target="card" onclick="return clickLink(event, this, 'c100425');"><span><img id="c100425" class="face" src="images/card_100426_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill7 cu"><span class="item">
+<a href="cards/100559.html?v=lCA8HmdJ" target="card" onclick="return clickLink(event, this, 'c100559');"><span><img id="c100559" class="face" src="images/card_100560_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill8 cu"><span class="item">
+<a href="cards/101037.html?v=oMw4PVxB" target="card" onclick="return clickLink(event, this, 'c101037');"><span><img id="c101037" class="face" src="images/card_101038_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill8 cu"><span class="item">
+<a href="cards/101063.html?v=AgBleoQS" target="card" onclick="return clickLink(event, this, 'c101063');"><span><img id="c101063" class="face" src="images/card_101064_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill8 cu"><span class="item">
+<a href="cards/100917.html?v=Ai9NYO2Q" target="card" onclick="return clickLink(event, this, 'c100917');"><span><img id="c100917" class="face" src="images/card_100918_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill9 cu"><span class="item">
+<a href="cards/101053.html?v=WvVZW2qS" target="card" onclick="return clickLink(event, this, 'c101053');"><span><img id="c101053" class="face" src="images/card_101054_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill10 cu"><span class="item">
+<a href="cards/101005.html?v=QbN0Ra8g" target="card" onclick="return clickLink(event, this, 'c101005');"><span><img id="c101005" class="face" src="images/card_101006_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill10 cu"><span class="item">
+<a href="cards/100761.html?v=McG__nnA" target="card" onclick="return clickLink(event, this, 'c100761');"><span><img id="c100761" class="face" src="images/card_100762_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill10 cu"><span class="item">
+<a href="cards/100929.html?v=zfKL4vNo" target="card" onclick="return clickLink(event, this, 'c100929');"><span><img id="c100929" class="face" src="images/card_100930_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="type co time9">Co</th>
+<td class="item l  time9 skill0 co"><span class="item">
+<a href="cards/200281.html?v=FamRTE6Y" target="card" onclick="return clickLink(event, this, 'c200281');"><span><img id="c200281" class="face" src="images/card_200282_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill0 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill0 co"><span class="item">
+<a href="cards/200247.html?v=XR.tk51H" target="card" onclick="return clickLink(event, this, 'c200247');"><span><img id="c200247" class="face" src="images/card_200248_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill2 co"><span class="item">
+<a href="cards/200571.html?v=qP2ZIfH4" target="card" onclick="return clickLink(event, this, 'c200571');"><span><img id="c200571" class="face" src="images/card_200572_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill2 co"><span class="item">
+<a href="cards/201003.html?v=69flySXW" target="card" onclick="return clickLink(event, this, 'c201003');"><span><img id="c201003" class="face" src="images/card_201004_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill3 co"><span class="item">
+<a href="cards/200837.html?v=nbTID1Zt" target="card" onclick="return clickLink(event, this, 'c200837');"><span><img id="c200837" class="face" src="images/card_200838_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill4 co"><span class="item">
+<a href="cards/201001.html?v=YJfQCXR1" target="card" onclick="return clickLink(event, this, 'c201001');"><span><img id="c201001" class="face" src="images/card_201002_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill5 co"><span class="item">
+<a href="cards/201039.html?v=oUPN88xp" target="card" onclick="return clickLink(event, this, 'c201039');"><span><img id="c201039" class="face" src="images/card_201040_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill6 co"><span class="item">
+<a href="cards/200645.html?v=_3KMa.Js" target="card" onclick="return clickLink(event, this, 'c200645');"><span><img id="c200645" class="face" src="images/card_200646_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill6 co"><span class="item">
+<a href="cards/200507.html?v=YY_fIF_f" target="card" onclick="return clickLink(event, this, 'c200507');"><span><img id="c200507" class="face" src="images/card_200508_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill7 co"><span class="item">
+<a href="cards/200537.html?v=FVidCFbf" target="card" onclick="return clickLink(event, this, 'c200537');"><span><img id="c200537" class="face" src="images/card_200538_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill7 co"><span class="item">
+<a href="cards/200435.html?v=NtNqZREe" target="card" onclick="return clickLink(event, this, 'c200435');"><span><img id="c200435" class="face" src="images/card_200436_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill8 co"><span class="item">
+<a href="cards/200967.html?v=Qwpa2g5T" target="card" onclick="return clickLink(event, this, 'c200967');"><span><img id="c200967" class="face" src="images/card_200968_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill8 co"><span class="item">
+<a href="cards/201101.html?v=E4lA3a_1" target="card" onclick="return clickLink(event, this, 'c201101');"><span><img id="c201101" class="face" src="images/card_201102_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill8 co"><span class="item">
+<a href="cards/201021.html?v=ukm3e1E5" target="card" onclick="return clickLink(event, this, 'c201021');"><span><img id="c201021" class="face" src="images/card_201022_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill9 co"><span class="item">
+<a href="cards/201091.html?v=YTorbxFF" target="card" onclick="return clickLink(event, this, 'c201091');"><span><img id="c201091" class="face" src="images/card_201092_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill9 co"><span class="item">
+<a href="cards/201223.html?v=_r67.zhf" target="card" onclick="return clickLink(event, this, 'c201223');"><span><img id="c201223" class="face" src="images/card_201224_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill10 co"><span class="item">
+<a href="cards/200949.html?v=w_tVDCui" target="card" onclick="return clickLink(event, this, 'c200949');"><span><img id="c200949" class="face" src="images/card_200950_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill10 co"><span class="item">
+<a href="cards/201045.html?v=KHX1uFs6" target="card" onclick="return clickLink(event, this, 'c201045');"><span><img id="c201045" class="face" src="images/card_201046_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill10 co"><span class="item">
+<a href="cards/200741.html?v=8R3j5K9e" target="card" onclick="return clickLink(event, this, 'c200741');"><span><img id="c200741" class="face" src="images/card_200742_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="type pa time9">Pa</th>
+<td class="item l  time9 skill0 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill0 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill0 pa"><span class="item">
+<a href="cards/300151.html?v=_UtPCDFf" target="card" onclick="return clickLink(event, this, 'c300151');"><span><img id="c300151" class="face" src="images/card_300152_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill1 pa"><span class="item">
+<a href="cards/300235.html?v=VcVFwalc" target="card" onclick="return clickLink(event, this, 'c300235');"><span><img id="c300235" class="face" src="images/card_300236_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill2 pa"><span class="item">
+<a href="cards/300571.html?v=8SLbKG3c" target="card" onclick="return clickLink(event, this, 'c300571');"><span><img id="c300571" class="face" src="images/card_300572_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill3 pa"><span class="item">
+<a href="cards/300761.html?v=IEyxfvUy" target="card" onclick="return clickLink(event, this, 'c300761');"><span><img id="c300761" class="face" src="images/card_300762_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time9 skill4 pa"><span class="item">
+<a href="cards/300855.html?v=p5dqr87P" target="card" onclick="return clickLink(event, this, 'c300855');"><span><img id="c300855" class="face" src="images/card_300856_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill5 pa"><span class="item">
+<a href="cards/301015.html?v=nnbgqPPJ" target="card" onclick="return clickLink(event, this, 'c301015');"><span><img id="c301015" class="face" src="images/card_301016_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill6 pa"><span class="item">
+<a href="cards/301033.html?v=MHLWtcq6" target="card" onclick="return clickLink(event, this, 'c301033');"><span><img id="c301033" class="face" src="images/card_301034_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill6 pa"><span class="item">
+<a href="cards/300689.html?v=_uD3bQvp" target="card" onclick="return clickLink(event, this, 'c300689');"><span><img id="c300689" class="face" src="images/card_300690_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill6 pa"><span class="item">
+<a href="cards/300479.html?v=iOI2xfD0" target="card" onclick="return clickLink(event, this, 'c300479');"><span><img id="c300479" class="face" src="images/card_300480_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill7 pa"><span class="item">
+<a href="cards/300423.html?v=85iRnZGX" target="card" onclick="return clickLink(event, this, 'c300423');"><span><img id="c300423" class="face" src="images/card_300424_circle.png"/></span></a>
+<a href="cards/300457.html?v=7DYCQvmr" target="card" onclick="return clickLink(event, this, 'c300457');"><span><img id="c300457" class="face" src="images/card_300458_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill7 pa"><span class="item">
+<a href="cards/300563.html?v=AuiiSb1E" target="card" onclick="return clickLink(event, this, 'c300563');"><span><img id="c300563" class="face" src="images/card_300564_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time9 skill8 pa"><span class="item">
+<a href="cards/300999.html?v=PQpdsG20" target="card" onclick="return clickLink(event, this, 'c300999');"><span><img id="c300999" class="face" src="images/card_301000_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill8 pa"><span class="item">
+<a href="cards/300887.html?v=8bu59jBP" target="card" onclick="return clickLink(event, this, 'c300887');"><span><img id="c300887" class="face" src="images/card_300888_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill8 pa"><span class="item">
+<a href="cards/301063.html?v=iofD38oB" target="card" onclick="return clickLink(event, this, 'c301063');"><span><img id="c301063" class="face" src="images/card_301064_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill9 pa"><span class="item">
+<a href="cards/301157.html?v=iw7ikQW2" target="card" onclick="return clickLink(event, this, 'c301157');"><span><img id="c301157" class="face" src="images/card_301158_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time9 skill9 pa"><span class="item">
+<a href="cards/301051.html?v=eX20tFvF" target="card" onclick="return clickLink(event, this, 'c301051');"><span><img id="c301051" class="face" src="images/card_301052_circle.png"/></span></a>
+</span></td>
+<td class="item l  time9 skill10 pa"><span class="item">
+<a href="cards/300897.html?v=siLoP2cc" target="card" onclick="return clickLink(event, this, 'c300897');"><span><img id="c300897" class="face" src="images/card_300898_circle.png"/></span></a>
+</span></td>
+<td class="item m  time9 skill10 pa"><span class="item">
+<a href="cards/300739.html?v=t5leNh0c" target="card" onclick="return clickLink(event, this, 'c300739');"><span><img id="c300739" class="face" src="images/card_300740_circle.png"/></span></a>
+</span></td>
+<td class="item r  time9 skill10 pa"><span class="item">
+<a href="cards/301007.html?v=WtKQwMUX" target="card" onclick="return clickLink(event, this, 'c301007');"><span><img id="c301007" class="face" src="images/card_301008_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="sec time11" rowspan="3"><input class="cb_sec cb" type="checkbox" onchange="changeSec(this, 'time11')" checked="checked"></input>11秒</th>
+    <th class="type cu time11">Cu</th>
+<td class="item l  time11 skill0 cu"><span class="item">
+<a href="cards/100227.html?v=5yUQwyWF" target="card" onclick="return clickLink(event, this, 'c100227');"><span><img id="c100227" class="face" src="images/card_100228_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill0 cu"><span class="item">
+<a href="cards/100191.html?v=SPuBk8xg" target="card" onclick="return clickLink(event, this, 'c100191');"><span><img id="c100191" class="face" src="images/card_100192_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill1 cu"><span class="item">
+<a href="cards/100255.html?v=sFBUQ6BT" target="card" onclick="return clickLink(event, this, 'c100255');"><span><img id="c100255" class="face" src="images/card_100256_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill2 cu"><span class="item">
+<a href="cards/100499.html?v=RH23raQ4" target="card" onclick="return clickLink(event, this, 'c100499');"><span><img id="c100499" class="face" src="images/card_100500_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill3 cu"><span class="item">
+<a href="cards/101143.html?v=72mf.KnM" target="card" onclick="return clickLink(event, this, 'c101143');"><span><img id="c101143" class="face" src="images/card_101144_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill3 cu"><span class="item">
+<a href="cards/100881.html?v=jXS3vY1M" target="card" onclick="return clickLink(event, this, 'c100881');"><span><img id="c100881" class="face" src="images/card_100882_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill4 cu"><span class="item">
+<a href="cards/101141.html?v=DyMwi5FW" target="card" onclick="return clickLink(event, this, 'c101141');"><span><img id="c101141" class="face" src="images/card_101142_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill4 cu"><span class="item">
+<a href="cards/100849.html?v=dZsTjya6" target="card" onclick="return clickLink(event, this, 'c100849');"><span><img id="c100849" class="face" src="images/card_100850_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill5 cu"><span class="item">
+<a href="cards/101117.html?v=09gUSWbG" target="card" onclick="return clickLink(event, this, 'c101117');"><span><img id="c101117" class="face" src="images/card_101118_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill6 cu"><span class="item">
+<a href="cards/101173.html?v=_iYeHFGr" target="card" onclick="return clickLink(event, this, 'c101173');"><span><img id="c101173" class="face" src="images/card_101174_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill6 cu"><span class="item">
+<a href="cards/100551.html?v=0ljpIR6P" target="card" onclick="return clickLink(event, this, 'c100551');"><span><img id="c100551" class="face" src="images/card_100552_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill6 cu"><span class="item">
+<a href="cards/101029.html?v=GcFF8gcU" target="card" onclick="return clickLink(event, this, 'c101029');"><span><img id="c101029" class="face" src="images/card_101030_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill7 cu"><span class="item">
+<a href="cards/100531.html?v=GCSbyN7I" target="card" onclick="return clickLink(event, this, 'c100531');"><span><img id="c100531" class="face" src="images/card_100532_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill7 cu"><span class="item">
+<a href="cards/100673.html?v=I6zLqmro" target="card" onclick="return clickLink(event, this, 'c100673');"><span><img id="c100673" class="face" src="images/card_100674_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill7 cu"><span class="item">
+<a href="cards/100371.html?v=kl6RwVuM" target="card" onclick="return clickLink(event, this, 'c100371');"><span><img id="c100371" class="face" src="images/card_100372_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill8 cu"><span class="item">
+<a href="cards/100873.html?v=_AJwKxW5" target="card" onclick="return clickLink(event, this, 'c100873');"><span><img id="c100873" class="face" src="images/card_100874_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill8 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill8 cu"><span class="item">
+<a href="cards/101095.html?v=MuTvIqjt" target="card" onclick="return clickLink(event, this, 'c101095');"><span><img id="c101095" class="face" src="images/card_101096_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill9 cu"><span class="item">
+<a href="cards/101079.html?v=DRZfwDB_" target="card" onclick="return clickLink(event, this, 'c101079');"><span><img id="c101079" class="face" src="images/card_101080_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill10 cu"><span class="item">
+<a href="cards/100945.html?v=RLy_cZ1x" target="card" onclick="return clickLink(event, this, 'c100945');"><span><img id="c100945" class="face" src="images/card_100946_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill10 cu"><span class="item">
+<a href="cards/101163.html?v=F38hKkpj" target="card" onclick="return clickLink(event, this, 'c101163');"><span><img id="c101163" class="face" src="images/card_101164_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill10 cu"><span class="item">
+<a href="cards/100773.html?v=F4rYOcB." target="card" onclick="return clickLink(event, this, 'c100773');"><span><img id="c100773" class="face" src="images/card_100774_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="type co time11">Co</th>
+<td class="item l  time11 skill0 co"><span class="item">
+<a href="cards/200165.html?v=CUEmYHE6" target="card" onclick="return clickLink(event, this, 'c200165');"><span><img id="c200165" class="face" src="images/card_200166_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill0 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill0 co"><span class="item">
+<a href="cards/200333.html?v=xJjgaNeu" target="card" onclick="return clickLink(event, this, 'c200333');"><span><img id="c200333" class="face" src="images/card_200334_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill1 co"><span class="item">
+<a href="cards/200345.html?v=rPKyNE9z" target="card" onclick="return clickLink(event, this, 'c200345');"><span><img id="c200345" class="face" src="images/card_200346_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill2 co"><span class="item">
+<a href="cards/200525.html?v=WdhK2yna" target="card" onclick="return clickLink(event, this, 'c200525');"><span><img id="c200525" class="face" src="images/card_200526_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill3 co"><span class="item">
+<a href="cards/200977.html?v=ADoUROal" target="card" onclick="return clickLink(event, this, 'c200977');"><span><img id="c200977" class="face" src="images/card_200978_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill4 co"><span class="item">
+<a href="cards/200779.html?v=xrpm1SRO" target="card" onclick="return clickLink(event, this, 'c200779');"><span><img id="c200779" class="face" src="images/card_200780_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill4 co"><span class="item">
+<a href="cards/201147.html?v=G3eO7hMm" target="card" onclick="return clickLink(event, this, 'c201147');"><span><img id="c201147" class="face" src="images/card_201148_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill5 co"><span class="item">
+<a href="cards/201117.html?v=70_BaXYv" target="card" onclick="return clickLink(event, this, 'c201117');"><span><img id="c201117" class="face" src="images/card_201118_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill6 co"><span class="item">
+<a href="cards/200781.html?v=_GOA7KPd" target="card" onclick="return clickLink(event, this, 'c200781');"><span><img id="c200781" class="face" src="images/card_200782_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill6 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill6 co"><span class="item">
+<a href="cards/200597.html?v=L0Yst_qs" target="card" onclick="return clickLink(event, this, 'c200597');"><span><img id="c200597" class="face" src="images/card_200598_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill7 co"><span class="item">
+<a href="cards/200399.html?v=qwyoFjy9" target="card" onclick="return clickLink(event, this, 'c200399');"><span><img id="c200399" class="face" src="images/card_200400_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill8 co"><span class="item">
+<a href="cards/201129.html?v=j3bP.Yo9" target="card" onclick="return clickLink(event, this, 'c201129');"><span><img id="c201129" class="face" src="images/card_201130_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill8 co"><span class="item">
+<a href="cards/200933.html?v=cZExpMkp" target="card" onclick="return clickLink(event, this, 'c200933');"><span><img id="c200933" class="face" src="images/card_200934_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill8 co"><span class="item">
+<a href="cards/201191.html?v=KzZFnEdL" target="card" onclick="return clickLink(event, this, 'c201191');"><span><img id="c201191" class="face" src="images/card_201192_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill9 co"><span class="item">
+<a href="cards/201121.html?v=y2Yo9V1j" target="card" onclick="return clickLink(event, this, 'c201121');"><span><img id="c201121" class="face" src="images/card_201122_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill10 co"><span class="item">
+<a href="cards/201211.html?v=oaSZLavd" target="card" onclick="return clickLink(event, this, 'c201211');"><span><img id="c201211" class="face" src="images/card_201212_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill10 co"><span class="item">
+<a href="cards/200809.html?v=ZNc6caEl" target="card" onclick="return clickLink(event, this, 'c200809');"><span><img id="c200809" class="face" src="images/card_200810_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill10 co"><span class="item">
+<a href="cards/201029.html?v=kEjHe42t" target="card" onclick="return clickLink(event, this, 'c201029');"><span><img id="c201029" class="face" src="images/card_201030_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="type pa time11">Pa</th>
+<td class="item l  time11 skill0 pa"><span class="item">
+<a href="cards/300095.html?v=sih3Kqs7" target="card" onclick="return clickLink(event, this, 'c300095');"><span><img id="c300095" class="face" src="images/card_300096_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill0 pa"><span class="item">
+<a href="cards/300303.html?v=U363k38b" target="card" onclick="return clickLink(event, this, 'c300303');"><span><img id="c300303" class="face" src="images/card_300304_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill0 pa"><span class="item">
+<a href="cards/300251.html?v=CgXkeKo8" target="card" onclick="return clickLink(event, this, 'c300251');"><span><img id="c300251" class="face" src="images/card_300252_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill2 pa"><span class="item">
+<a href="cards/300989.html?v=gla55GHD" target="card" onclick="return clickLink(event, this, 'c300989');"><span><img id="c300989" class="face" src="images/card_300990_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill2 pa"><span class="item">
+<a href="cards/300529.html?v=RbFHAPbq" target="card" onclick="return clickLink(event, this, 'c300529');"><span><img id="c300529" class="face" src="images/card_300530_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill3 pa"><span class="item">
+<a href="cards/300895.html?v=YO1qHNjt" target="card" onclick="return clickLink(event, this, 'c300895');"><span><img id="c300895" class="face" src="images/card_300896_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill3 pa"><span class="item">
+<a href="cards/301139.html?v=NbycvzLg" target="card" onclick="return clickLink(event, this, 'c301139');"><span><img id="c301139" class="face" src="images/card_301140_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill4 pa"><span class="item">
+<a href="cards/301067.html?v=4RdR0Hv2" target="card" onclick="return clickLink(event, this, 'c301067');"><span><img id="c301067" class="face" src="images/card_301068_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill4 pa"><span class="item">
+<a href="cards/301141.html?v=eSeXTkCG" target="card" onclick="return clickLink(event, this, 'c301141');"><span><img id="c301141" class="face" src="images/card_301142_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill4 pa"><span class="item">
+<a href="cards/300783.html?v=KlWGqqWo" target="card" onclick="return clickLink(event, this, 'c300783');"><span><img id="c300783" class="face" src="images/card_300784_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time11 skill5 pa"><span class="item">
+<a href="cards/301045.html?v=B6a00JUt" target="card" onclick="return clickLink(event, this, 'c301045');"><span><img id="c301045" class="face" src="images/card_301046_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill6 pa"><span class="item">
+<a href="cards/301069.html?v=x3TJUtvh" target="card" onclick="return clickLink(event, this, 'c301069');"><span><img id="c301069" class="face" src="images/card_301070_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill6 pa"><span class="item">
+<a href="cards/300541.html?v=mD8Pw.Bl" target="card" onclick="return clickLink(event, this, 'c300541');"><span><img id="c300541" class="face" src="images/card_300542_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill6 pa"><span class="item">
+<a href="cards/300723.html?v=bbWu8sj9" target="card" onclick="return clickLink(event, this, 'c300723');"><span><img id="c300723" class="face" src="images/card_300724_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill7 pa"><span class="item">
+<a href="cards/300377.html?v=jFNtSrca" target="card" onclick="return clickLink(event, this, 'c300377');"><span><img id="c300377" class="face" src="images/card_300378_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill7 pa"><span class="item">
+<a href="cards/300491.html?v=m2eAaUux" target="card" onclick="return clickLink(event, this, 'c300491');"><span><img id="c300491" class="face" src="images/card_300492_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill7 pa"><span class="item">
+<a href="cards/300553.html?v=NFhpLlXZ" target="card" onclick="return clickLink(event, this, 'c300553');"><span><img id="c300553" class="face" src="images/card_300554_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill8 pa"><span class="item">
+<a href="cards/301111.html?v=aRmTxJJp" target="card" onclick="return clickLink(event, this, 'c301111');"><span><img id="c301111" class="face" src="images/card_301112_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill8 pa"><span class="item">
+<a href="cards/300991.html?v=DxwCd6F4" target="card" onclick="return clickLink(event, this, 'c300991');"><span><img id="c300991" class="face" src="images/card_300992_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill8 pa"><span class="item">
+<a href="cards/300871.html?v=VspCfWtE" target="card" onclick="return clickLink(event, this, 'c300871');"><span><img id="c300871" class="face" src="images/card_300872_circle.png"/></span></a>
+</span></td>
+<td class="item l  time11 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time11 skill9 pa"><span class="item">
+<a href="cards/301081.html?v=cpdDwg_N" target="card" onclick="return clickLink(event, this, 'c301081');"><span><img id="c301081" class="face" src="images/card_301082_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time11 skill10 pa"><span class="item">
+<a href="cards/300775.html?v=GnEYLPFC" target="card" onclick="return clickLink(event, this, 'c300775');"><span><img id="c300775" class="face" src="images/card_300776_circle.png"/></span></a>
+</span></td>
+<td class="item m  time11 skill10 pa"><span class="item">
+<a href="cards/301091.html?v=6gMc.hd9" target="card" onclick="return clickLink(event, this, 'c301091');"><span><img id="c301091" class="face" src="images/card_301092_circle.png"/></span></a>
+</span></td>
+<td class="item r  time11 skill10 pa"><span class="item">
+<a href="cards/300933.html?v=kmqBcXoS" target="card" onclick="return clickLink(event, this, 'c300933');"><span><img id="c300933" class="face" src="images/card_300934_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="sec time13" rowspan="3"><input class="cb_sec cb" type="checkbox" onchange="changeSec(this, 'time13')" checked="checked"></input>13秒</th>
+    <th class="type cu time13">Cu</th>
+<td class="item l  time13 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill0 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill0 cu"><span class="item">
+<a href="cards/100907.html?v=XYKh3B9U" target="card" onclick="return clickLink(event, this, 'c100907');"><span><img id="c100907" class="face" src="images/card_100908_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill1 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill2 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill3 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill4 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill5 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill6 cu"><span class="item">
+<a href="cards/100685.html?v=Yg0w2r5G" target="card" onclick="return clickLink(event, this, 'c100685');"><span><img id="c100685" class="face" src="images/card_100686_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill6 cu"><span class="item">
+<a href="cards/100651.html?v=_anK0Irr" target="card" onclick="return clickLink(event, this, 'c100651');"><span><img id="c100651" class="face" src="images/card_100652_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill6 cu"><span class="item">
+<a href="cards/100515.html?v=1UI5Ziwh" target="card" onclick="return clickLink(event, this, 'c100515');"><span><img id="c100515" class="face" src="images/card_100516_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill7 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill7 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill7 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill8 cu"><span class="item">
+<a href="cards/100955.html?v=Fuv3YrNg" target="card" onclick="return clickLink(event, this, 'c100955');"><span><img id="c100955" class="face" src="images/card_100956_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill8 cu"><span class="item">
+<a href="cards/100863.html?v=cZ8XvQtf" target="card" onclick="return clickLink(event, this, 'c100863');"><span><img id="c100863" class="face" src="images/card_100864_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill8 cu"><span class="item">
+<a href="cards/101147.html?v=uX9QydmG" target="card" onclick="return clickLink(event, this, 'c101147');"><span><img id="c101147" class="face" src="images/card_101148_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill9 cu"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill9 cu"><span class="item">
+<a href="cards/101015.html?v=LiUoAZXu" target="card" onclick="return clickLink(event, this, 'c101015');"><span><img id="c101015" class="face" src="images/card_101016_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill9 cu"><span class="item">
+<a href="cards/101157.html?v=R1RX9Yng" target="card" onclick="return clickLink(event, this, 'c101157');"><span><img id="c101157" class="face" src="images/card_101158_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill10 cu"><span class="item">
+<a href="cards/101189.html?v=jNmQXGHl" target="card" onclick="return clickLink(event, this, 'c101189');"><span><img id="c101189" class="face" src="images/card_101190_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill10 cu"><span class="item">
+<a href="cards/100981.html?v=94J08F8_" target="card" onclick="return clickLink(event, this, 'c100981');"><span><img id="c100981" class="face" src="images/card_100982_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill10 cu"><span class="item">
+<a href="cards/100885.html?v=D0pG6w_6" target="card" onclick="return clickLink(event, this, 'c100885');"><span><img id="c100885" class="face" src="images/card_100886_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="type co time13">Co</th>
+<td class="item l  time13 skill0 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill0 co"><span class="item">
+<a href="cards/200865.html?v=Q8P7_75N" target="card" onclick="return clickLink(event, this, 'c200865');"><span><img id="c200865" class="face" src="images/card_200866_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill0 co"><span class="item">
+<a href="cards/200367.html?v=1EIKHJeb" target="card" onclick="return clickLink(event, this, 'c200367');"><span><img id="c200367" class="face" src="images/card_200368_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill1 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill2 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill3 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill4 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill5 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill6 co"><span class="item">
+<a href="cards/200575.html?v=mUNnPzxi" target="card" onclick="return clickLink(event, this, 'c200575');"><span><img id="c200575" class="face" src="images/card_200576_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill6 co"><span class="item">
+<a href="cards/200673.html?v=wbXjel7J" target="card" onclick="return clickLink(event, this, 'c200673');"><span><img id="c200673" class="face" src="images/card_200674_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill6 co"><span class="item">
+<a href="cards/201007.html?v=H2B3QDwf" target="card" onclick="return clickLink(event, this, 'c201007');"><span><img id="c201007" class="face" src="images/card_201008_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill7 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill8 co"><span class="item">
+<a href="cards/201075.html?v=xPWmSolZ" target="card" onclick="return clickLink(event, this, 'c201075');"><span><img id="c201075" class="face" src="images/card_201076_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill8 co"><span class="item">
+<a href="cards/201203.html?v=S59ZgZxG" target="card" onclick="return clickLink(event, this, 'c201203');"><span><img id="c201203" class="face" src="images/card_201204_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill8 co"><span class="item">
+<a href="cards/200909.html?v=C0gprZFL" target="card" onclick="return clickLink(event, this, 'c200909');"><span><img id="c200909" class="face" src="images/card_200910_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill9 co"><span class="item">
+<a href="cards/201173.html?v=UrMSM2R." target="card" onclick="return clickLink(event, this, 'c201173');"><span><img id="c201173" class="face" src="images/card_201174_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill9 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill9 co"><span class="item">
+<a href="cards/201055.html?v=3R3hjIma" target="card" onclick="return clickLink(event, this, 'c201055');"><span><img id="c201055" class="face" src="images/card_201056_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill10 co"><span class="item">
+<a href="cards/200917.html?v=7F64IaYU" target="card" onclick="return clickLink(event, this, 'c200917');"><span><img id="c200917" class="face" src="images/card_200918_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill10 co"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill10 co"><span class="item">
+<a href="cards/200981.html?v=Pp56kZV0" target="card" onclick="return clickLink(event, this, 'c200981');"><span><img id="c200981" class="face" src="images/card_200982_circle.png"/></span></a>
+</span></td>
+  </tr>
+  <tr>
+    <th class="type pa time13">Pa</th>
+<td class="item l  time13 skill0 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill0 pa"><span class="item">
+<a href="cards/300343.html?v=gpHIcxk2" target="card" onclick="return clickLink(event, this, 'c300343');"><span><img id="c300343" class="face" src="images/card_300344_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill0 pa"><span class="item">
+<a href="cards/300205.html?v=.b9j__2J" target="card" onclick="return clickLink(event, this, 'c300205');"><span><img id="c300205" class="face" src="images/card_300206_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill1 pa"><span class="item">
+<a href="cards/300279.html?v=W8WWavUJ" target="card" onclick="return clickLink(event, this, 'c300279');"><span><img id="c300279" class="face" src="images/card_300280_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill1 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill2 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill3 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill4 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill5 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill6 pa"><span class="item">
+<a href="cards/300509.html?v=Afnn5tYb" target="card" onclick="return clickLink(event, this, 'c300509');"><span><img id="c300509" class="face" src="images/card_300510_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill6 pa"><span class="item">
+<a href="cards/301161.html?v=3I3xAfdj" target="card" onclick="return clickLink(event, this, 'c301161');"><span><img id="c301161" class="face" src="images/card_301162_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill6 pa"><span class="item">
+<a href="cards/300601.html?v=dmzJ9I5z" target="card" onclick="return clickLink(event, this, 'c300601');"><span><img id="c300601" class="face" src="images/card_300602_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item m  time13 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item r  time13 skill7 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill8 pa"><span class="item">
+<a href="cards/300831.html?v=KlPwPKXZ" target="card" onclick="return clickLink(event, this, 'c300831');"><span><img id="c300831" class="face" src="images/card_300832_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill8 pa"><span class="item">
+<a href="cards/301027.html?v=ju5.Rejh" target="card" onclick="return clickLink(event, this, 'c301027');"><span><img id="c301027" class="face" src="images/card_301028_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill8 pa"><span class="item">
+<a href="cards/300923.html?v=4pKXIPJh" target="card" onclick="return clickLink(event, this, 'c300923');"><span><img id="c300923" class="face" src="images/card_300924_circle.png"/></span></a>
+</span></td>
+<td class="item l  time13 skill9 pa"><span class="item">
+<a href="cards/301017.html?v=TpdvBdPR" target="card" onclick="return clickLink(event, this, 'c301017');"><span><img id="c301017" class="face" src="images/card_301018_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill9 pa"><span class="item">
+<a href="cards/301143.html?v=T1rFrUzh" target="card" onclick="return clickLink(event, this, 'c301143');"><span><img id="c301143" class="face" src="images/card_301144_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill9 pa"><span class="item">
+&nbsp;
+</span></td>
+<td class="item l  time13 skill10 pa"><span class="item">
+<a href="cards/300959.html?v=J6wNNRt_" target="card" onclick="return clickLink(event, this, 'c300959');"><span><img id="c300959" class="face" src="images/card_300960_circle.png"/></span></a>
+</span></td>
+<td class="item m  time13 skill10 pa"><span class="item">
+<a href="cards/300845.html?v=IqBP40bW" target="card" onclick="return clickLink(event, this, 'c300845');"><span><img id="c300845" class="face" src="images/card_300846_circle.png"/></span></a>
+</span></td>
+<td class="item r  time13 skill10 pa"><span class="item">
+&nbsp;
 </span></td>
   </tr>
     </tbody>
