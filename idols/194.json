@@ -191,5 +191,29 @@
         "max_vo"      : 3834,
         "max_da"      : 5930,
         "max_vi"      : 3149
+    },
+    {
+        "id" : "201247",
+        "name" : "\uFF3BStarry Night\uFF3D\u677E\u6C38\u6DBC",
+        "implement" : "2023-02-27 15:00",
+        "implement_v" : 1677510000,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Groove Vocal burst",
+        "max_vo"      : 4820,
+        "max_da"      : 3109,
+        "max_vi"      : 2557
+    },
+    {
+        "id" : "201248",
+        "name" : "\uFF3BStarry Night\uFF3D\u677E\u6C38\u6DBC\uFF0B",
+        "implement" : "2023-02-27 15:00",
+        "implement_v" : 1677510000,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Groove Vocal burst",
+        "max_vo"      : 5935,
+        "max_da"      : 3830,
+        "max_vi"      : 3150
     }
 ]
