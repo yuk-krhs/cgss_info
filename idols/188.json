@@ -263,5 +263,29 @@
         "max_vo"      : 3647,
         "max_da"      : 4458,
         "max_vi"      : 6940
+    },
+    {
+        "id" : "201263",
+        "name" : "\uFF3BShine In The Sky\u2606\uFF3D\u6A58\u3042\u308A\u3059",
+        "implement" : "2023-04-13 15:00",
+        "implement_v" : 1681398000,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "Shine In The Sky\u2606",
+        "max_vo"      : 4823,
+        "max_da"      : 3112,
+        "max_vi"      : 2550
+    },
+    {
+        "id" : "201264",
+        "name" : "\uFF3BShine In The Sky\u2606\uFF3D\u6A58\u3042\u308A\u3059\uFF0B",
+        "implement" : "2023-04-13 15:00",
+        "implement_v" : 1681398000,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "Shine In The Sky\u2606",
+        "max_vo"      : 5940,
+        "max_da"      : 3832,
+        "max_vi"      : 3142
     }
 ]
