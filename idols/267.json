@@ -335,5 +335,29 @@
         "max_vo"      : 6938,
         "max_da"      : 3642,
         "max_vi"      : 4463
+    },
+    {
+        "id" : "301205",
+        "name" : "\uFF3BNightwear\uFF3D\u57CE\u30F6\u5D0E\u7F8E\u5609",
+        "implement" : "2023-05-11 15:00",
+        "implement_v" : 1683817200,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "Nightwear",
+        "max_vo"      : 2557,
+        "max_da"      : 4820,
+        "max_vi"      : 3108
+    },
+    {
+        "id" : "301206",
+        "name" : "\uFF3BNightwear\uFF3D\u57CE\u30F6\u5D0E\u7F8E\u5609\uFF0B",
+        "implement" : "2023-05-11 15:00",
+        "implement_v" : 1683817200,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "Nightwear",
+        "max_vo"      : 3149,
+        "max_da"      : 5936,
+        "max_vi"      : 3828
     }
 ]
