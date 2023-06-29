@@ -311,5 +311,29 @@
         "max_vo"      : 7404,
         "max_da"      : 55,
         "max_vi"      : 7591
+    },
+    {
+        "id" : "201289",
+        "name" : "\uFF3BNext Chapter\uFF3D\u9DFA\u6CA2\u6587\u9999",
+        "implement" : "2023-06-29 15:00",
+        "implement_v" : 1688050800,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Parade",
+        "max_vo"      : 4823,
+        "max_da"      : 3115,
+        "max_vi"      : 2547
+    },
+    {
+        "id" : "201290",
+        "name" : "\uFF3BNext Chapter\uFF3D\u9DFA\u6CA2\u6587\u9999\uFF0B",
+        "implement" : "2023-06-29 15:00",
+        "implement_v" : 1688050800,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Parade",
+        "max_vo"      : 5940,
+        "max_da"      : 3835,
+        "max_vi"      : 3139
     }
 ]
