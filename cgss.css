@@ -72,10 +72,32 @@ th.type {
 	font-size: 10pt;
 }
 
+th.stickyHV {
+	position: sticky;
+	z-index: 4;
+	background: #ffffff;
+	font-size: 8pt;
+}
+
+th.stickyH {
+	position: sticky;
+	z-index: 3;
+	background: #ffffff;
+	font-size: 8pt;
+}
+
+th.stickyV {
+	position: sticky;
+	z-index: 3;
+	background: #ffffff;
+	font-size: 8pt;
+}
+
 th.head0-0 {
 	width: 20px;
 	position: sticky;
 	z-index: 4;
+	top: 0pt;
 	left: 0pt;
 	background: #ffffff;
 	font-size: 8pt;
@@ -94,6 +116,15 @@ th.head0-1 {
 	font-size: 8pt;
 }
 
+th.head1-1a {
+	position: sticky;
+	z-index: 4;
+	background: #ffffff;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	font-size: 8pt;
+}
+
 th.head1 {
 	position: sticky;
 	top: 0;
@@ -104,7 +135,6 @@ th.head1 {
 
 th.head2 {
 	position: sticky;
-	top: 30;
 	background: #ffffff;
 	z-index: 3;
 	font-size: 7pt;
@@ -128,6 +158,21 @@ span.have:before {
 
 span.nohave:before {
 	content: "×";
+}
+
+span.gacha_theme {
+	color: #999999;
+}
+
+th.m {
+}
+
+th.l {
+	border-right: none;
+}
+
+th.r {
+	border-left: none;
 }
 
 td.m {
@@ -183,6 +228,69 @@ th.co {
 th.pa {
 	background: #ffffdd;
 	border-top: none;
+}
+
+td.cuV {
+	border-right: none;
+	background: #ffeeee;
+}
+
+td.coV {
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	background: #eeeeff;
+}
+
+td.paV {
+	border-left: none;
+	background: #ffffdd;
+}
+
+
+th.cuV {
+	border-right: none;
+	background: #ffeeee;
+}
+
+th.coV {
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	background: #eeeeff;
+}
+
+th.paV {
+	border-left: none;
+	background: #ffffdd;
+}
+
+td.gacha_limited {
+}
+
+td.gacha_noir {
+	border-top: none;
+	border-bottom: none;
+}
+
+td.gacha_blanc {
+}
+
+th.gacha_limited {
+}
+
+th.gacha_noir {
+	border-top: none;
+	border-bottom: none;
+}
+
+th.gacha_blanc {
+}
+
+th.gacha_year {
+//	border-bottom: none;
+}
+
+th.gacha_month {
+	border-bottom: none;
 }
 
 #cardinfo-frame {

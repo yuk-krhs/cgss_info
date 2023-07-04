@@ -236,8 +236,8 @@ function doDOMContentLoaded() {
 }
 
 function showCardStatus(x, y, href) {
-	var	ww		= 320;
-	var	wh		= 160;
+	var	ww		= 360;
+	var	wh		= 182;
 	var	frame	= document.getElementById('cardinfo-frame');
 	var	iframe	= document.getElementById('cardinfo');
 
@@ -264,8 +264,8 @@ function hideCardStatus() {
 }
 
 function processShowCardStatus(e) {
-	var	ww	= 320;
-	var	wh	= 160;
+	var	ww	= 360;
+	var	wh	= 182;
 	var x	= e.x;
 	var y	= e.y;
 	var	cw	= window.innerWidth;
