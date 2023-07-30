@@ -239,5 +239,29 @@
         "max_vo"      : 5932,
         "max_da"      : 3834,
         "max_vi"      : 3147
+    },
+    {
+        "id" : "201297",
+        "name" : "\uFF3BNight Time Wander\uFF3D\u6850\u751F\u3064\u304B\u3055",
+        "implement" : "2023-07-19 15:00",
+        "implement_v" : 1689778800,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "Night Time Wander",
+        "max_vo"      : 4823,
+        "max_da"      : 3111,
+        "max_vi"      : 2551
+    },
+    {
+        "id" : "201298",
+        "name" : "\uFF3BNight Time Wander\uFF3D\u6850\u751F\u3064\u304B\u3055\uFF0B",
+        "implement" : "2023-07-19 15:00",
+        "implement_v" : 1689778800,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "Night Time Wander",
+        "max_vo"      : 5940,
+        "max_da"      : 3831,
+        "max_vi"      : 3143
     }
 ]
