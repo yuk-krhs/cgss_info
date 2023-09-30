@@ -215,5 +215,29 @@
         "max_vo"      : 3835,
         "max_da"      : 5935,
         "max_vi"      : 3143
+    },
+    {
+        "id" : "201321",
+        "name" : "\uFF3BHardcore Toyworld\uFF3D\u7802\u585A\u3042\u304D\u3089",
+        "implement" : "2023-09-20 15:00",
+        "implement_v" : 1695222000,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : null,
+        "max_vo"      : 4826,
+        "max_da"      : 3113,
+        "max_vi"      : 2546
+    },
+    {
+        "id" : "201322",
+        "name" : "\uFF3BHardcore Toyworld\uFF3D\u7802\u585A\u3042\u304D\u3089\uFF0B",
+        "implement" : "2023-09-20 15:00",
+        "implement_v" : 1695222000,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : null,
+        "max_vo"      : 5943,
+        "max_da"      : 3833,
+        "max_vi"      : 3138
     }
 ]
