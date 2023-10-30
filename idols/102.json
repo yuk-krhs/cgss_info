@@ -287,5 +287,29 @@
         "max_vo"      : 2678,
         "max_da"      : 3488,
         "max_vi"      : 8915
+    },
+    {
+        "id" : "101285",
+        "name" : "\uFF3BHALLOWEEN GAME\uFF3D\u4E2D\u91CE\u6709\u9999",
+        "implement" : "2023-10-19 15:00",
+        "implement_v" : 1697727600,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "HALLOWEEN GAME",
+        "max_vo"      : 4824,
+        "max_da"      : 2555,
+        "max_vi"      : 3106
+    },
+    {
+        "id" : "101286",
+        "name" : "\uFF3BHALLOWEEN GAME\uFF3D\u4E2D\u91CE\u6709\u9999\uFF0B",
+        "implement" : "2023-10-19 15:00",
+        "implement_v" : 1697727600,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "HALLOWEEN GAME",
+        "max_vo"      : 5941,
+        "max_da"      : 3147,
+        "max_vi"      : 3826
     }
 ]

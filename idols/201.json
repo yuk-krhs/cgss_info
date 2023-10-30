@@ -311,5 +311,29 @@
         "max_vo"      : 4450,
         "max_da"      : 3654,
         "max_vi"      : 6940
+    },
+    {
+        "id" : "201335",
+        "name" : "\uFF3BD-ark L-ily's Grin\uFF3D\u5317\u6761\u52A0\u84EE",
+        "implement" : "2023-10-30 15:00",
+        "implement_v" : 1698678000,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Groove Vocal burst",
+        "max_vo"      : 2549,
+        "max_da"      : 3110,
+        "max_vi"      : 4826
+    },
+    {
+        "id" : "201336",
+        "name" : "\uFF3BD-ark L-ily's Grin\uFF3D\u5317\u6761\u52A0\u84EE\uFF0B",
+        "implement" : "2023-10-30 15:00",
+        "implement_v" : 1698678000,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Groove Vocal burst",
+        "max_vo"      : 3139,
+        "max_da"      : 3830,
+        "max_vi"      : 5945
     }
 ]
