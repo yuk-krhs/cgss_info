@@ -313,6 +313,30 @@
         "max_vi"      : 6935
     },
     {
+        "id" : "301285",
+        "name" : "\uFF3BWINTER and WINDOW\uFF3D\u9AD8\u68EE\u85CD\u5B50",
+        "implement" : "2023-12-20 15:00",
+        "implement_v" : 1703084400,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : null,
+        "max_vo"      : 4823,
+        "max_da"      : 2559,
+        "max_vi"      : 3103
+    },
+    {
+        "id" : "301286",
+        "name" : "\uFF3BWINTER and WINDOW\uFF3D\u9AD8\u68EE\u85CD\u5B50\uFF0B",
+        "implement" : "2023-12-20 15:00",
+        "implement_v" : 1703084400,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : null,
+        "max_vo"      : 5940,
+        "max_da"      : 3153,
+        "max_vi"      : 3822
+    },
+    {
         "id" : "320225",
         "name" : "\uFF3B\u751F\u5B58\u672C\u80FD\u30F4\u30A1\u30EB\u30AD\u30E5\u30EA\u30A2\uFF3D\u9AD8\u68EE\u85CD\u5B50",
         "implement" : "2016-04-30 15:00",

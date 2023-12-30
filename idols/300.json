@@ -191,5 +191,29 @@
         "max_vo"      : 3685,
         "max_da"      : 4465,
         "max_vi"      : 6904
+    },
+    {
+        "id" : "301283",
+        "name" : "\uFF3BWINTER and WINDOW\uFF3D\u30A4\u30F4\u30FB\u30B5\u30F3\u30BF\u30AF\u30ED\u30FC\u30B9",
+        "implement" : "2023-12-20 15:00",
+        "implement_v" : 1703084400,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : null,
+        "max_vo"      : 4818,
+        "max_da"      : 3111,
+        "max_vi"      : 2556
+    },
+    {
+        "id" : "301284",
+        "name" : "\uFF3BWINTER and WINDOW\uFF3D\u30A4\u30F4\u30FB\u30B5\u30F3\u30BF\u30AF\u30ED\u30FC\u30B9\uFF0B",
+        "implement" : "2023-12-20 15:00",
+        "implement_v" : 1703084400,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : null,
+        "max_vo"      : 5934,
+        "max_da"      : 3831,
+        "max_vi"      : 3148
     }
 ]
