@@ -407,5 +407,29 @@
         "max_vo"      : 11,
         "max_da"      : 591,
         "max_vi"      : 9
+    },
+    {
+        "id" : "301287",
+        "name" : "\uFF3BCome to you\uFF3D\u672C\u7530\u672A\u592E",
+        "implement" : "2024-01-01 15:00",
+        "implement_v" : 1704121200,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Carnival",
+        "max_vo"      : 3114,
+        "max_da"      : 4821,
+        "max_vi"      : 2550
+    },
+    {
+        "id" : "301288",
+        "name" : "\uFF3BCome to you\uFF3D\u672C\u7530\u672A\u592E\uFF0B",
+        "implement" : "2024-01-01 15:00",
+        "implement_v" : 1704121200,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Carnival",
+        "max_vo"      : 3835,
+        "max_da"      : 5937,
+        "max_vi"      : 3142
     }
 ]

@@ -263,5 +263,29 @@
         "max_vo"      : 5938,
         "max_da"      : 3157,
         "max_vi"      : 3820
+    },
+    {
+        "id" : "301289",
+        "name" : "\uFF3B\u3042\u3089\u305F\u307E\u306E\u5E74\u3001\u51EA\u306E\u307E\u306B\u307E\u306B\uFF3D\u4E45\u5DDD\u51EA",
+        "implement" : "2024-01-04 15:00",
+        "implement_v" : 1704380400,
+        "rarity"      : "SSR",
+        "reward"      : "\u671F\u9593\u9650\u5B9A",
+        "label"       : "\u60F3\u3044\u3092\u5171\u306B \u65B0\u6625\u4E07\u798F\u30AC\u30B7\u30E3",
+        "max_vo"      : 6242,
+        "max_da"      : 6091,
+        "max_vi"      : 43
+    },
+    {
+        "id" : "301290",
+        "name" : "\uFF3B\u3042\u3089\u305F\u307E\u306E\u5E74\u3001\u51EA\u306E\u307E\u306B\u307E\u306B\uFF3D\u4E45\u5DDD\u51EA\uFF0B",
+        "implement" : "2024-01-04 15:00",
+        "implement_v" : 1704380400,
+        "rarity"      : "SSR+",
+        "reward"      : "\u671F\u9593\u9650\u5B9A",
+        "label"       : "\u60F3\u3044\u3092\u5171\u306B \u65B0\u6625\u4E07\u798F\u30AC\u30B7\u30E3",
+        "max_vo"      : 7590,
+        "max_da"      : 7406,
+        "max_vi"      : 54
     }
 ]
