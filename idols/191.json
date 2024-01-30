@@ -239,5 +239,29 @@
         "max_vo"      : 4451,
         "max_da"      : 6941,
         "max_vi"      : 3653
+    },
+    {
+        "id" : "201367",
+        "name" : "\uFF3B\u30EF\u30BF\u30B7\u5FA1\u4F3D\u3070\u306A\u30B7\uFF3D\u30E9\u30A4\u30E9",
+        "implement" : "2024-01-30 15:00",
+        "implement_v" : 1706626800,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Groove Visual burst",
+        "max_vo"      : 2558,
+        "max_da"      : 3106,
+        "max_vi"      : 4822
+    },
+    {
+        "id" : "201368",
+        "name" : "\uFF3B\u30EF\u30BF\u30B7\u5FA1\u4F3D\u3070\u306A\u30B7\uFF3D\u30E9\u30A4\u30E9\uFF0B",
+        "implement" : "2024-01-30 15:00",
+        "implement_v" : 1706626800,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Groove Visual burst",
+        "max_vo"      : 3149,
+        "max_da"      : 3827,
+        "max_vi"      : 5939
     }
 ]

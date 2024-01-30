@@ -215,5 +215,29 @@
         "max_vo"      : 5934,
         "max_da"      : 3831,
         "max_vi"      : 3148
+    },
+    {
+        "id" : "301291",
+        "name" : "\uFF3B\u30B7\u30F3\u30C7\u30EC\u30E9\u30AC\u30FC\u30EB\uFF3D\u30A4\u30F4\u30FB\u30B5\u30F3\u30BF\u30AF\u30ED\u30FC\u30B9",
+        "implement" : "2024-01-14 15:00",
+        "implement_v" : 1705244400,
+        "rarity"      : "SSR",
+        "reward"      : "SfC",
+        "label"       : "Stage for Cinderella\u30AC\u30B7\u30E3",
+        "max_vo"      : 4925,
+        "max_da"      : 3926,
+        "max_vi"      : 3727
+    },
+    {
+        "id" : "301292",
+        "name" : "\uFF3B\u30B7\u30F3\u30C7\u30EC\u30E9\u30AC\u30FC\u30EB\uFF3D\u30A4\u30F4\u30FB\u30B5\u30F3\u30BF\u30AF\u30ED\u30FC\u30B9\uFF0B",
+        "implement" : "2024-01-14 15:00",
+        "implement_v" : 1705244400,
+        "rarity"      : "SSR+",
+        "reward"      : "SfC",
+        "label"       : "Stage for Cinderella\u30AC\u30B7\u30E3",
+        "max_vo"      : 5989,
+        "max_da"      : 4775,
+        "max_vi"      : 4533
     }
 ]
