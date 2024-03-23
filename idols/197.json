@@ -335,5 +335,53 @@
         "max_vo"      : 4447,
         "max_da"      : 6944,
         "max_vi"      : 3653
+    },
+    {
+        "id" : "201379",
+        "name" : "\uFF3B\u30B9\u30BF\u30FC\u30E9\u30A4\u30C8\u30FB\u30DF\u30C3\u30C9\u30CA\u30A4\u30C8\uFF3D\u9AD8\u57A3\u6953",
+        "implement" : "2024-03-23 15:00",
+        "implement_v" : 1711206000,
+        "rarity"      : "SSR",
+        "reward"      : "\u671F\u9593\u9650\u5B9A",
+        "label"       : "\u795D\u796D\u306B\u5439\u304F\u98A8 \u304D\u3089\u3081\u304F\u5F57\u661F \u30B3\u30E9\u30DC\u30AC\u30B7\u30E3",
+        "max_vo"      : 45,
+        "max_da"      : 6242,
+        "max_vi"      : 6089
+    },
+    {
+        "id" : "201380",
+        "name" : "\uFF3B\u30B9\u30BF\u30FC\u30E9\u30A4\u30C8\u30FB\u30DF\u30C3\u30C9\u30CA\u30A4\u30C8\uFF3D\u9AD8\u57A3\u6953\uFF0B",
+        "implement" : "2024-03-23 15:00",
+        "implement_v" : 1711206000,
+        "rarity"      : "SSR+",
+        "reward"      : "\u671F\u9593\u9650\u5B9A",
+        "label"       : "\u795D\u796D\u306B\u5439\u304F\u98A8 \u304D\u3089\u3081\u304F\u5F57\u661F \u30B3\u30E9\u30DC\u30AC\u30B7\u30E3",
+        "max_vo"      : 56,
+        "max_da"      : 7590,
+        "max_vi"      : 7404
+    },
+    {
+        "id" : "201385",
+        "name" : "\uFF3B\u30B8\u30E5\u30D3\u30EA\u30FC\uFF3D\u9AD8\u57A3\u6953",
+        "implement" : "2024-03-23 15:00",
+        "implement_v" : 1711206000,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "\u30B8\u30E5\u30D3\u30EA\u30FC",
+        "max_vo"      : 4823,
+        "max_da"      : 3114,
+        "max_vi"      : 2548
+    },
+    {
+        "id" : "201386",
+        "name" : "\uFF3B\u30B8\u30E5\u30D3\u30EA\u30FC\uFF3D\u9AD8\u57A3\u6953\uFF0B",
+        "implement" : "2024-03-23 15:00",
+        "implement_v" : 1711206000,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "\u30B8\u30E5\u30D3\u30EA\u30FC",
+        "max_vo"      : 5940,
+        "max_da"      : 3834,
+        "max_vi"      : 3140
     }
 ]
