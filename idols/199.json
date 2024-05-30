@@ -167,5 +167,29 @@
         "max_vo"      : 3050,
         "max_da"      : 3723,
         "max_vi"      : 5773
+    },
+    {
+        "id" : "201395",
+        "name" : "\uFF3BTraveling & you ! \uFF3D\u4F0A\u96C6\u9662\u60E0",
+        "implement" : "2024-05-22 15:00",
+        "implement_v" : 1716390000,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "\u30B9\u30B9\u30E1 ! \u30B7\u30F3\u30C7\u30EC\u30E9\u30ED\u30FC\u30C9",
+        "max_vo"      : 3114,
+        "max_da"      : 4821,
+        "max_vi"      : 2551
+    },
+    {
+        "id" : "201396",
+        "name" : "\uFF3BTraveling & you ! \uFF3D\u4F0A\u96C6\u9662\u60E0\uFF0B",
+        "implement" : "2024-05-22 15:00",
+        "implement_v" : 1716390000,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "\u30B9\u30B9\u30E1 ! \u30B7\u30F3\u30C7\u30EC\u30E9\u30ED\u30FC\u30C9",
+        "max_vo"      : 3834,
+        "max_da"      : 5937,
+        "max_vi"      : 3144
     }
 ]
