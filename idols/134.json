@@ -359,5 +359,29 @@
         "max_vo"      : 6939,
         "max_da"      : 4456,
         "max_vi"      : 3649
+    },
+    {
+        "id" : "101347",
+        "name" : "\uFF3B\u30E2\u30E9\u30C8\u30EA\u30A2\u30E0\uFF3D\u53CC\u8449\u674F",
+        "implement" : "2024-07-29 15:00",
+        "implement_v" : 1722265200,
+        "rarity"      : "SR",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Groove Dance burst",
+        "max_vo"      : 4821,
+        "max_da"      : 2553,
+        "max_vi"      : 3111
+    },
+    {
+        "id" : "101348",
+        "name" : "\uFF3B\u30E2\u30E9\u30C8\u30EA\u30A2\u30E0\uFF3D\u53CC\u8449\u674F\uFF0B",
+        "implement" : "2024-07-29 15:00",
+        "implement_v" : 1722265200,
+        "rarity"      : "SR+",
+        "reward"      : "\u30A4\u30D9\u30F3\u30C8\u9650\u5B9A",
+        "label"       : "LIVE Groove Dance burst",
+        "max_vo"      : 5938,
+        "max_da"      : 3144,
+        "max_vi"      : 3832
     }
 ]
